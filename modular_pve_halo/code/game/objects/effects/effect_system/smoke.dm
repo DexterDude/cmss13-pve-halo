@@ -8,11 +8,11 @@
 
 /obj/effect/particle_effect/smoke/methane/Move()
 	. = ..()
-	for(var/mob/living/carbon/affected_mob in get_turf(src))
+	for(var/mob/living/carbon/human/affected_mob in get_turf(src))
 		if(!isspeciesunggoy(affected_mob))
 			affect(affected_mob)
 
-/obj/effect/particle_effect/smoke/methane/inhalation(mob/living/carbon/creature)
+/obj/effect/particle_effect/smoke/methane/inhalation(mob/living/carbon/human/creature)
 	if (..())
 		return
 	if(isspeciesunggoy(creature))
