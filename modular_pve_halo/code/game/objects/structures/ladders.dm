@@ -56,6 +56,10 @@
 		flick("hatch_loop", ladder_dest)
 	playsound(src, 'modular_pve_halo/sound/machines/gravity_lift.ogg')
 	playsound(ladder_dest, 'modular_pve_halo/sound/machines/gravity_lift.ogg')
+	if(ishuman(user))
+		var/mob/living/carbon/human/human = user
+		if(human.client)
+			playsound_client(human.client, 'modular_pve_halo/sound/machines/gravity_lift.ogg')
 	user.loc = ladder_dest.loc
 	add_fingerprint(user)
 
