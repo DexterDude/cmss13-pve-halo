@@ -16,6 +16,9 @@
 	usable = TRUE
 	faction = FACTION_COVENANT
 	squad_type = "Lance"
+	max_ultra = 1
+	max_majors = 2
+
 
 /datum/squad/marine/covenant_2
 	name = SQUAD_COVENANT_2
@@ -28,3 +31,5 @@
 	usable = TRUE
 	faction = FACTION_COVENANT
 	squad_type = "Lance"
+	max_ultra = 1
+	max_majors = 2
