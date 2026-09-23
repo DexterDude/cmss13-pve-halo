@@ -1459,18 +1459,6 @@
 "fc" = (
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/hallways)
-"fd" = (
-/obj/effect/landmark/start/marine/covenant/lance_obedientary,
-/turf/open/floor/covenant,
-/area/cloistered_light/hallways)
-"fe" = (
-/obj/effect/landmark/start/marine/covenant/lance_specialist,
-/turf/open/floor/covenant,
-/area/cloistered_light/hallways)
-"ff" = (
-/obj/effect/landmark/start/marine/covenant/lance_standard,
-/turf/open/floor/covenant,
-/area/cloistered_light/hallways)
 "fg" = (
 /obj/structure/machinery/door/airlock/multi_tile/cov_door/prop,
 /turf/open/floor/covenant/inverted,
@@ -1578,29 +1566,11 @@
 /obj/structure/surface/table/reinforced/covenant/alt,
 /turf/open/floor/covenant/paneling/rotated,
 /area/cloistered_light/armory)
-"fA" = (
-/obj/effect/landmark/start/marine/covenant/lance_ultra,
-/turf/open/floor/covenant/smooth_plating/blue/sides/northwest,
-/area/cloistered_light/sangheili_quarters)
-"fB" = (
-/obj/effect/temp_visual/dropship_hover/spirit{
-	dir = 1;
-	duration = 1.#INF
-	},
-/turf/open/floor/covenant/plating,
-/area/cloistered_light/hangar)
 "fC" = (
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 1
 	},
 /obj/effect/landmark/species_start/sangheili,
-/turf/open/floor/covenant/darker,
-/area/cloistered_light/sangheili_quarters)
-"fD" = (
-/obj/effect/decal/covenant_trim/seamless{
-	dir = 1
-	},
-/obj/effect/landmark/start/marine/covenant/lance_leader,
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
 "fE" = (
@@ -1962,7 +1932,7 @@
 /area/cloistered_light/canteen)
 "Af" = (
 /obj/structure/machinery/chem_dispenser/covenant,
-/turf/closed/wall/covenant,
+/turf/closed/wall/covenant/lights,
 /area/cloistered_light/canteen)
 "Ah" = (
 /obj/structure/bed/alien,
@@ -2048,7 +2018,7 @@
 /area/cloistered_light/hallways)
 "EM" = (
 /obj/structure/machinery/cm_vending/sorted/marine_food/covenant,
-/turf/closed/wall/covenant,
+/turf/closed/wall/covenant/lights,
 /area/cloistered_light/canteen)
 "EV" = (
 /obj/structure/ladder/gravity_lift{
@@ -2170,6 +2140,7 @@
 /area/cloistered_light/kigyar_quarters)
 "LW" = (
 /obj/effect/landmark/late_join/covenant,
+/obj/effect/landmark/late_join,
 /turf/open/floor/covenant,
 /area/cloistered_light/hallways)
 "MB" = (
@@ -5879,15 +5850,15 @@ rX
 rX
 jX
 bL
-ff
-ff
 Ex
 Ex
 Ex
 Ex
 Ex
-ff
-ff
+Ex
+Ex
+Ex
+Ex
 bL
 jX
 rX
@@ -6030,7 +6001,6 @@ rX
 rX
 jX
 jX
-fe
 Ex
 Ex
 Ex
@@ -6040,7 +6010,8 @@ Ex
 Ex
 Ex
 Ex
-fe
+Ex
+Ex
 jX
 jX
 rX
@@ -6148,7 +6119,7 @@ vK
 cx
 II
 HV
-fD
+eE
 eC
 cT
 jv
@@ -6181,7 +6152,7 @@ rX
 rX
 jX
 jX
-fd
+Ex
 Ex
 Ex
 Ex
@@ -6193,7 +6164,7 @@ SI
 Ex
 Ex
 Ex
-fd
+Ex
 jX
 jX
 rX
@@ -6606,7 +6577,7 @@ vK
 jv
 vK
 vK
-fA
+cy
 cz
 cD
 cD
@@ -8005,7 +7976,7 @@ rX
 rX
 jX
 jX
-fd
+Ex
 Ex
 Ex
 Ex
@@ -8017,7 +7988,7 @@ mp
 Ex
 Ex
 Ex
-fd
+Ex
 jX
 jX
 rX
@@ -8158,7 +8129,6 @@ rX
 rX
 jX
 jX
-fe
 Ex
 Ex
 Ex
@@ -8168,7 +8138,8 @@ Ex
 Ex
 Ex
 Ex
-fe
+Ex
+Ex
 jX
 jX
 rX
@@ -8311,15 +8282,15 @@ rX
 rX
 jX
 bL
-ff
-ff
 Ex
 Ex
 Ex
 Ex
 Ex
-ff
-ff
+Ex
+Ex
+Ex
+Ex
 bL
 jX
 rX
@@ -19830,7 +19801,7 @@ mT
 mT
 mT
 mT
-fB
+yR
 mT
 mT
 mT
