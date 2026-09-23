@@ -309,7 +309,7 @@
 			join_turf = get_turf(pick(GLOB.latejoin_by_job[title]))
 		else
 			join_turf = get_turf(pick(GLOB.latejoin))
-		if(use_species_spawn)
+		if(use_species_spawn && (human.species.name == use_species_spawn))
 			join_turf = get_turf(pick(GLOB.spawns_by_species[use_species_spawn]))
 		human.forceMove(join_turf)
 

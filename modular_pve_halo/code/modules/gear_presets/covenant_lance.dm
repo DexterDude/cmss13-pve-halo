@@ -4,12 +4,6 @@
 	faction_group = FACTION_LIST_COVENANT
 	flags = null
 
-/datum/equipment_preset/covenant/lance/load_gear(mob/living/carbon/human/new_human, client/mob_client)
-	if(new_human.client && new_human.client.prefs.species == SPECIES_RUUHTIAN)
-		new_human.set_species(SPECIES_RUUHTIAN)
-	else
-		new_human.set_species(SPECIES_UNGGOY)
-
 /datum/equipment_preset/covenant/lance/lance_standard
 	name = "Lance Warrior"
 	rank = JOB_COV_LANCE_STANDARD

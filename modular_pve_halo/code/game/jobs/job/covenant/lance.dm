@@ -29,7 +29,7 @@
 	gear_preset_secondary = /datum/equipment_preset/covenant/lance/lance_standard/lesser
 	gear_preset_tertiary = /datum/equipment_preset/covenant/lance/lance_standard/greater
 	job_options = list(MINOR_VARIANT_LESSER = "Minor-", MINOR_VARIANT = "Minor", MINOR_VARIANT_GREATER = "Minor+")
-	use_species_spawn = list(SPECIES_UNGGOY, SPECIES_RUUHTIAN)
+	use_species_spawn = SPECIES_UNGGOY
 
 /datum/job/covenant/lance_standard/handle_job_options(option)
 	if(option == MINOR_VARIANT_LESSER)
@@ -80,7 +80,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	flags_startup_parameters = ROLE_ADD_TO_DEFAULT|ROLE_ADD_TO_SQUAD
-	gear_preset = /datum/equipment_preset/covenant/lance/lance_standard
+	gear_preset = /datum/equipment_preset/covenant/lance/lance_ultra
 	allowed_genders = list(FEMALE, MALE)
 
 /datum/job/covenant/lance_leader
