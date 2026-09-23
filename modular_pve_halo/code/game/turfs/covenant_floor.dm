@@ -5,6 +5,16 @@
 	icon = 'icons/halo/turf/floors/covenant.dmi'
 	icon_state = "pattern"
 	hull_floor = TRUE
+	plating_type = /turf/open/floor/covenant/under_plating
+
+/turf/open/floor/covenant/inverted
+	icon_state = "pattern2"
+
+/turf/open/floor/covenant/darker
+	icon_state = "pattern_alt"
+
+/turf/open/floor/covenant/darker/inverted
+	icon_state = "pattern_alt2"
 
 /turf/open/floor/covenant/paneling
 	icon_state = "paneling"
@@ -13,6 +23,18 @@
 	icon_state = "paneling2"
 
 // plating
+
+/turf/open/floor/covenant/under_plating
+	icon_state = "underplating"
+
+/turf/open/floor/covenant/under_plating/greebles
+	icon_state = "greebles"
+
+/turf/open/floor/covenant/under_plating/greebles/alt
+	icon_state = "greebles_2"
+
+/turf/open/floor/covenant/catwalk
+	icon_state = "catwalk"
 
 /turf/open/floor/covenant/plating
 	icon_state = "plating"
@@ -61,6 +83,14 @@
 
 /turf/open/floor/covenant/paneling/large/rotated
 	dir = WEST
+
+// catwalk
+
+/turf/open/floor/covenant/catwalk/vertical
+	dir = NORTH
+
+/turf/open/floor/covenant/catwalk/horizontal
+	dir = EAST
 
 // plating
 

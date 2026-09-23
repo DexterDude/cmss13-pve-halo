@@ -1,17 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aa" = (
-/turf/closed/wall/covenant/lights/brighter,
-/area/space)
 "ab" = (
 /obj/structure/machinery/door/airlock/multi_tile/cov_door/prop,
 /turf/open/floor/covenant/paneling/rotated,
-/area/space)
+/area/cloistered_light/unggoy_quarters)
 "ac" = (
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 1
 	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "ad" = (
 /turf/open/floor/covenant/smooth_plating/sides/east,
 /area/cloistered_light)
@@ -20,32 +17,32 @@
 /obj/effect/decal/covenant_trim/corner/seamless{
 	dir = 8
 	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "af" = (
 /obj/effect/decal/covenant_trim/seamless,
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "ag" = (
 /obj/effect/decal/covenant_trim/endcap_left,
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "ah" = (
 /obj/structure/pipes/vents/pump,
-/turf/open/floor/covenant/endcap/east,
-/area/space)
+/turf/open/floor/covenant/under_plating/greebles,
+/area/cloistered_light/unggoy_quarters)
 "ai" = (
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 8
 	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "aj" = (
 /obj/effect/decal/covenant_trim/endcap_right{
 	dir = 4
 	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "ak" = (
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 8
@@ -62,24 +59,24 @@
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 8
 	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "an" = (
 /obj/structure/machinery/door/airlock/multi_tile/cov_door/prop{
 	dir = 1
 	},
 /turf/open/floor/covenant/paneling,
-/area/space)
+/area/cloistered_light/unggoy_quarters)
 "ao" = (
 /obj/effect/decal/covenant_trim/corner/seamless,
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "ap" = (
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 4
 	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "aq" = (
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 8
@@ -99,8 +96,8 @@
 /obj/effect/decal/covenant_trim/corner/seamless{
 	dir = 1
 	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "at" = (
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 4
@@ -108,14 +105,14 @@
 /obj/effect/decal/covenant_trim/corner/seamless{
 	dir = 8
 	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "au" = (
 /obj/effect/decal/covenant_trim/corner/seamless{
 	dir = 1
 	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "av" = (
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 4
@@ -123,8 +120,8 @@
 /obj/effect/decal/covenant_trim/corner/seamless{
 	dir = 8
 	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "aw" = (
 /obj/effect/decal/covenant_trim/endcap_right{
 	dir = 8
@@ -144,12 +141,8 @@
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 4
 	},
-/turf/open/floor/covenant,
-/area/space)
-"az" = (
-/obj/structure/pipes/vents/pump,
-/turf/open/floor/covenant/endcap/south,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "aA" = (
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 4
@@ -157,25 +150,13 @@
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 8
 	},
-/turf/open/floor/covenant,
-/area/space)
-"aB" = (
-/obj/effect/decal/covenant_trim/seamless{
-	dir = 4
-	},
-/turf/open/floor/covenant,
-/area/cloistered_light/unggoy_quarters)
-"aC" = (
-/obj/effect/decal/covenant_trim/seamless{
-	dir = 8
-	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "aD" = (
 /obj/effect/decal/covenant_trim/corner/seamless{
 	dir = 4
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "aE" = (
 /obj/effect/decal/covenant_trim/seamless,
@@ -186,7 +167,7 @@
 	dir = 4
 	},
 /obj/effect/decal/covenant_trim/corner/seamless,
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "aG" = (
 /obj/effect/decal/covenant_trim/endcap_left{
@@ -195,12 +176,11 @@
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 4
 	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "aH" = (
-/obj/structure/pipes/vents/pump,
-/turf/open/floor/covenant/endcap/north,
-/area/space)
+/turf/open/floor/covenant/under_plating,
+/area/cloistered_light/unggoy_quarters)
 "aI" = (
 /obj/effect/decal/covenant_trim/endcap_right{
 	dir = 4
@@ -208,23 +188,17 @@
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 8
 	},
-/turf/open/floor/covenant,
-/area/space)
-"aJ" = (
-/obj/effect/decal/covenant_trim/seamless{
-	dir = 1
-	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "aK" = (
 /obj/item/stool,
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
 "aL" = (
 /obj/effect/decal/covenant_trim/corner/seamless{
 	dir = 8
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "aM" = (
 /obj/effect/decal/covenant_trim/seamless{
@@ -233,8 +207,8 @@
 /obj/effect/decal/covenant_trim/corner/seamless{
 	dir = 4
 	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "aN" = (
 /turf/open/floor/covenant/smooth_plating/corners/southeast,
 /area/cloistered_light/unggoy_quarters)
@@ -243,38 +217,32 @@
 	dir = 4
 	},
 /obj/effect/decal/covenant_trim/corner/seamless,
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "aP" = (
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 4
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "aQ" = (
 /obj/effect/decal/covenant_trim/endcap_right{
 	dir = 8
 	},
-/turf/open/floor/covenant,
-/area/space)
-"aR" = (
-/obj/effect/decal/covenant_trim/endcap_left{
-	dir = 4
-	},
-/turf/open/floor/covenant,
-/area/space)
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
 "aS" = (
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 1
 	},
 /obj/effect/decal/covenant_trim/corner/seamless,
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "aT" = (
 /obj/effect/decal/covenant_trim/endcap_right{
 	dir = 1
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "aU" = (
 /obj/effect/decal/covenant_trim/endcap_right,
@@ -284,32 +252,6 @@
 /obj/effect/decal/covenant_trim/endcap_left,
 /turf/open/floor/covenant,
 /area/cloistered_light/unggoy_quarters)
-"aW" = (
-/obj/effect/decal/covenant_trim{
-	dir = 1
-	},
-/obj/effect/decal/covenant_trim,
-/turf/open/floor/covenant/smooth_plating,
-/area/cloistered_light/hallways)
-"aX" = (
-/obj/effect/decal/covenant_trim/endcap_left{
-	dir = 1
-	},
-/turf/open/floor/covenant,
-/area/space)
-"aY" = (
-/obj/effect/decal/covenant_trim/endcap_right{
-	dir = 1
-	},
-/turf/open/floor/covenant,
-/area/space)
-"aZ" = (
-/turf/open/floor/covenant/paneling/large/rotated,
-/area/space)
-"ba" = (
-/obj/effect/decal/covenant_trim/endcap_right,
-/turf/open/floor/covenant,
-/area/space)
 "bb" = (
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 1
@@ -383,7 +325,7 @@
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 8
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light)
 "bp" = (
 /obj/effect/decal/covenant_trim/seamless{
@@ -396,7 +338,7 @@
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 8
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light)
 "br" = (
 /obj/effect/decal/covenant_trim/endcap_right{
@@ -409,25 +351,25 @@
 /obj/effect/decal/covenant_trim/endcap_right{
 	dir = 8
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light)
 "bt" = (
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 1
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light)
 "bu" = (
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 1
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light)
 "bv" = (
 /obj/effect/decal/covenant_trim/endcap_right{
 	dir = 1
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light)
 "bw" = (
 /obj/effect/decal/covenant_trim/endcap_right,
@@ -500,7 +442,7 @@
 	dir = 8
 	},
 /obj/structure/blocker/invisible_wall,
-/turf/open/floor/covenant/smooth_plating,
+/turf/open/floor/covenant/smooth_plating/blue,
 /area/cloistered_light/hallways)
 "bJ" = (
 /obj/effect/decal/covenant_trim/corner/seamless{
@@ -624,23 +566,19 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/covenant/paneling/large,
-/area/space)
+/turf/open/floor/covenant/under_plating/greebles,
+/area/cloistered_light/hallways)
 "cg" = (
-/obj/effect/decal/covenant_trim,
-/obj/effect/decal/covenant_trim{
-	dir = 1
-	},
-/turf/open/floor/covenant/paneling/large,
-/area/space)
+/turf/open/floor/covenant/catwalk/vertical,
+/area/cloistered_light/hallways)
 "ch" = (
 /obj/effect/decal/covenant_trim,
 /obj/effect/decal/covenant_trim{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/greenglow,
-/turf/open/floor/covenant/paneling/large,
-/area/space)
+/turf/open/floor/covenant/under_plating/greebles,
+/area/cloistered_light/hallways)
 "ci" = (
 /turf/open/floor/covenant/smooth_plating/sides/northeast,
 /area/cloistered_light/hangar)
@@ -651,7 +589,7 @@
 	},
 /obj/structure/machinery/door/airlock/cov_door/prop,
 /turf/open/floor/covenant/paneling/large,
-/area/space)
+/area/cloistered_light/hallways)
 "ck" = (
 /obj/effect/decal/covenant_trim/endcap_right,
 /turf/open/floor/covenant,
@@ -678,8 +616,8 @@
 	pixel_x = -8;
 	pixel_y = -12
 	},
-/turf/open/floor/covenant/paneling/large,
-/area/space)
+/turf/open/floor/covenant/under_plating/greebles,
+/area/cloistered_light/hallways)
 "cp" = (
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 1
@@ -823,18 +761,18 @@
 /obj/effect/decal/covenant_trim/corner/seamless{
 	dir = 4
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
 "cS" = (
 /obj/effect/decal/covenant_trim/seamless,
 /obj/effect/decal/covenant_trim,
 /obj/effect/decal/covenant_trim/seamless,
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
 "cT" = (
 /obj/effect/decal/covenant_trim/corner,
 /obj/effect/decal/covenant_trim/corner/seamless,
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
 "cU" = (
 /obj/effect/decal/covenant_trim/endcap_right,
@@ -850,10 +788,6 @@
 "cX" = (
 /turf/open/floor/covenant/endcap/south,
 /area/cloistered_light/hallways)
-"cY" = (
-/obj/structure/pipes/vents/pump,
-/turf/open/floor/covenant/endcap/north,
-/area/cloistered_light/unggoy_quarters)
 "cZ" = (
 /obj/effect/decal/covenant_trim/endcap_left,
 /turf/open/floor/covenant/paneling,
@@ -862,31 +796,31 @@
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 4
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
 "db" = (
 /obj/item/stool,
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 8
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
 "dc" = (
 /obj/structure/surface/table/reinforced/covenant,
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
 "dd" = (
 /obj/item/stool,
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 4
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
 "de" = (
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 8
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
 "df" = (
 /obj/structure/machinery/cm_vending/clothing{
@@ -895,28 +829,397 @@
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 8
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
 "dg" = (
 /obj/structure/energy_barrier,
 /turf/open/floor/covenant,
 /area/cloistered_light/hangar)
+"dh" = (
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
+"di" = (
+/obj/effect/decal/covenant_trim{
+	dir = 1
+	},
+/obj/effect/decal/covenant_trim,
+/turf/open/floor/covenant/smooth_plating/blue,
+/area/cloistered_light/hallways)
+"dj" = (
+/obj/effect/decal/covenant_trim/endcap_left{
+	dir = 1
+	},
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/hallways)
+"dk" = (
+/obj/effect/decal/covenant_trim/seamless{
+	dir = 1
+	},
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/hallways)
+"dl" = (
+/obj/effect/decal/covenant_trim/endcap_right{
+	dir = 1
+	},
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/hallways)
+"dm" = (
+/turf/open/floor/covenant/under_plating/greebles,
+/area/cloistered_light/unggoy_quarters)
+"dn" = (
+/obj/effect/decal/covenant_trim/endcap_right,
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/hallways)
+"do" = (
+/obj/effect/decal/covenant_trim/seamless,
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/hallways)
+"dp" = (
+/obj/effect/decal/covenant_trim/endcap_left,
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/hallways)
+"dq" = (
+/obj/effect/decal/covenant_trim{
+	dir = 1
+	},
+/turf/open/floor/covenant,
+/area/cloistered_light/canteen)
+"dr" = (
+/turf/open/floor/covenant/smooth_plating/blue/sides/southwest,
+/area/cloistered_light/canteen)
+"ds" = (
+/turf/open/floor/covenant/smooth_plating/blue/sides/southeast,
+/area/cloistered_light/canteen)
+"dt" = (
+/obj/effect/decal/covenant_trim{
+	dir = 4
+	},
+/turf/open/floor/covenant/smooth_plating/sides/southwest,
+/area/cloistered_light/canteen)
+"du" = (
+/obj/structure/surface/table/reinforced/covenant/alt,
+/turf/open/floor/covenant/smooth_plating/blue/sides/southeast,
+/area/cloistered_light/canteen)
+"dv" = (
+/obj/structure/bed/stool,
+/obj/effect/decal/covenant_trim{
+	dir = 8
+	},
+/turf/open/floor/covenant,
+/area/cloistered_light/canteen)
 "dw" = (
 /turf/open/floor/covenant/smooth_plating/sides/northeast,
 /area/space)
+"dx" = (
+/turf/open/floor/covenant/smooth_plating/blue/sides/west,
+/area/cloistered_light/canteen)
+"dy" = (
+/turf/open/floor/covenant/smooth_plating/blue,
+/area/cloistered_light/canteen)
+"dz" = (
+/obj/structure/surface/table/reinforced/covenant/alt,
+/turf/open/floor/covenant/smooth_plating/blue/sides/west,
+/area/cloistered_light/canteen)
+"dA" = (
+/obj/structure/surface/table/reinforced/covenant/alt,
+/turf/open/floor/covenant/smooth_plating/blue/sides/east,
+/area/cloistered_light/canteen)
+"dB" = (
+/turf/open/floor/covenant/smooth_plating/blue/sides/northwest,
+/area/cloistered_light/canteen)
+"dC" = (
+/turf/open/floor/covenant/smooth_plating/blue/sides/north,
+/area/cloistered_light/canteen)
+"dD" = (
+/turf/open/floor/covenant/smooth_plating/blue/sides/northeast,
+/area/cloistered_light/canteen)
+"dE" = (
+/obj/effect/decal/covenant_trim/endcap_right{
+	dir = 4
+	},
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/hallways)
+"dF" = (
+/obj/effect/decal/covenant_trim/endcap_left{
+	dir = 8
+	},
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/hallways)
+"dG" = (
+/obj/effect/decal/covenant_trim{
+	dir = 10
+	},
+/turf/open/floor/covenant,
+/area/cloistered_light/canteen)
+"dH" = (
+/obj/effect/decal/covenant_trim{
+	dir = 6
+	},
+/turf/open/floor/covenant,
+/area/cloistered_light/canteen)
+"dI" = (
+/obj/effect/decal/covenant_trim/seamless{
+	dir = 4
+	},
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/hallways)
+"dJ" = (
+/obj/effect/decal/covenant_trim/seamless{
+	dir = 8
+	},
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/hallways)
 "dK" = (
 /turf/open/floor/covenant/smooth_plating/sides/southwest,
 /area/space)
+"dL" = (
+/obj/effect/decal/covenant_trim/endcap_left{
+	dir = 4
+	},
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/hallways)
+"dM" = (
+/obj/effect/decal/covenant_trim/endcap_right{
+	dir = 8
+	},
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/hallways)
+"dN" = (
+/obj/structure/surface/table/reinforced/covenant/alt,
+/turf/open/floor/covenant/smooth_plating/blue/sides/northwest,
+/area/cloistered_light/canteen)
+"dO" = (
+/obj/structure/surface/table/reinforced/covenant/alt,
+/turf/open/floor/covenant/smooth_plating/blue/sides/northeast,
+/area/cloistered_light/canteen)
+"dP" = (
+/obj/effect/decal/covenant_trim{
+	dir = 1
+	},
+/turf/open/floor/covenant/smooth_plating,
+/area/cloistered_light/unggoy_quarters)
+"dQ" = (
+/obj/structure/surface/table/reinforced/covenant,
+/turf/open/floor/covenant/smooth_plating/sides/southeast,
+/area/cloistered_light/canteen)
+"dR" = (
+/obj/effect/decal/covenant_trim,
+/turf/open/floor/covenant,
+/area/cloistered_light/canteen)
 "dS" = (
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 1
 	},
 /obj/structure/surface/table/reinforced/covenant,
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
+"dT" = (
+/obj/effect/decal/covenant_trim{
+	dir = 4
+	},
+/turf/open/floor/covenant/smooth_plating,
+/area/cloistered_light/unggoy_quarters)
+"dU" = (
+/obj/effect/decal/covenant_trim{
+	dir = 8
+	},
+/turf/open/floor/covenant/smooth_plating,
+/area/cloistered_light/unggoy_quarters)
+"dV" = (
+/obj/structure/surface/table/reinforced/covenant,
+/turf/open/floor/covenant/smooth_plating/sides/northwest,
+/area/cloistered_light/canteen)
+"dW" = (
+/obj/structure/surface/table/reinforced/covenant,
+/turf/open/floor/covenant/smooth_plating/sides/northeast,
+/area/cloistered_light/canteen)
+"dX" = (
+/obj/effect/decal/covenant_trim,
+/turf/open/floor/covenant/smooth_plating,
+/area/cloistered_light/unggoy_quarters)
+"dY" = (
+/obj/structure/bed/stool,
+/obj/effect/decal/covenant_trim,
+/turf/open/floor/covenant,
+/area/cloistered_light/canteen)
+"dZ" = (
+/turf/open/floor/covenant/smooth_plating/blue,
+/area/cloistered_light)
+"ea" = (
+/obj/effect/decal/covenant_trim{
+	dir = 10
+	},
+/obj/effect/decal/covenant_trim{
+	dir = 1;
+	pixel_x = 16;
+	pixel_y = 0
+	},
+/turf/open/floor/covenant/under_plating/greebles,
+/area/cloistered_light/canteen)
+"eb" = (
+/obj/effect/decal/covenant_trim{
+	dir = 6
+	},
+/turf/open/floor/covenant/under_plating/greebles,
+/area/cloistered_light/canteen)
+"ec" = (
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/hallways)
+"ed" = (
+/turf/closed/wall/covenant/lights,
+/area/cloistered_light/hallways)
+"ee" = (
+/turf/open/floor/covenant/darker,
+/area/cloistered_light)
+"ef" = (
+/obj/effect/decal/covenant_trim/endcap_left{
+	dir = 8
+	},
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/hallways)
+"eg" = (
+/obj/effect/decal/covenant_trim/endcap_right{
+	dir = 4
+	},
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/hallways)
+"eh" = (
+/obj/effect/decal/covenant_trim/seamless{
+	dir = 8
+	},
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/hallways)
+"ei" = (
+/obj/effect/decal/covenant_trim/seamless{
+	dir = 4
+	},
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/hallways)
 "ej" = (
 /turf/open/floor/covenant/paneling/rotated,
 /area/cloistered_light/canteen)
+"ek" = (
+/obj/effect/decal/covenant_trim/endcap_right{
+	dir = 8
+	},
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/hallways)
+"el" = (
+/obj/effect/decal/covenant_trim/endcap_left{
+	dir = 4
+	},
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/hallways)
+"em" = (
+/obj/effect/decal/covenant_trim{
+	dir = 10
+	},
+/obj/effect/decal/covenant_trim{
+	dir = 1;
+	pixel_x = 16;
+	pixel_y = 0
+	},
+/turf/open/floor/covenant/under_plating/greebles/alt,
+/area/cloistered_light/hallways)
+"en" = (
+/obj/effect/decal/covenant_trim{
+	dir = 6
+	},
+/turf/open/floor/covenant/under_plating/greebles/alt,
+/area/cloistered_light/hallways)
+"eo" = (
+/obj/effect/decal/covenant_trim/endcap_left{
+	dir = 1
+	},
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/hallways)
+"ep" = (
+/obj/effect/decal/covenant_trim/seamless{
+	dir = 1
+	},
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/hallways)
+"eq" = (
+/obj/effect/decal/covenant_trim/endcap_right{
+	dir = 1
+	},
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/hallways)
+"er" = (
+/obj/structure/machinery/door/airlock/cov_door,
+/turf/open/floor/covenant/darker/inverted,
+/area/cloistered_light/kigyar_quarters)
+"es" = (
+/obj/structure/machinery/cm_vending/clothing,
+/turf/open/floor/covenant/darker/inverted,
+/area/cloistered_light/kigyar_quarters)
+"et" = (
+/obj/effect/decal/covenant_trim{
+	dir = 9
+	},
+/turf/open/floor/covenant/darker/inverted,
+/area/cloistered_light/kigyar_quarters)
+"eu" = (
+/obj/effect/decal/covenant_trim{
+	dir = 5
+	},
+/turf/open/floor/covenant/darker/inverted,
+/area/cloistered_light/kigyar_quarters)
+"ev" = (
+/turf/open/floor/covenant/catwalk/horizontal,
+/area/cloistered_light/hallways)
+"ew" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/covenant/catwalk/horizontal,
+/area/cloistered_light/hallways)
+"ex" = (
+/obj/effect/decal/cleanable/dirt/greenglow,
+/turf/open/floor/covenant/catwalk/horizontal,
+/area/cloistered_light/hallways)
+"ey" = (
+/obj/effect/decal/covenant_trim,
+/obj/effect/decal/covenant_trim{
+	dir = 1
+	},
+/turf/open/floor/covenant/under_plating/greebles,
+/area/cloistered_light/hallways)
+"ez" = (
+/obj/structure/machinery/door/airlock/cov_door/prop{
+	dir = 1
+	},
+/turf/open/floor/covenant/paneling/large/rotated,
+/area/cloistered_light/kigyar_quarters)
+"eA" = (
+/turf/open/floor/covenant/catwalk/vertical,
+/area/cloistered_light/kigyar_quarters)
+"eB" = (
+/obj/effect/decal/covenant_trim,
+/turf/open/floor/covenant,
+/area/cloistered_light/kigyar_quarters)
+"eC" = (
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/sangheili_quarters)
+"eD" = (
+/obj/effect/decal/covenant_trim/corner/seamless{
+	dir = 1
+	},
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/sangheili_quarters)
+"eE" = (
+/obj/effect/decal/covenant_trim/seamless{
+	dir = 1
+	},
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/sangheili_quarters)
+"eF" = (
+/obj/effect/decal/covenant_trim/corner/seamless{
+	dir = 8
+	},
+/turf/open/floor/covenant/darker,
+/area/cloistered_light/sangheili_quarters)
+"eG" = (
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/sangheili_quarters)
 "eP" = (
 /turf/open/floor/covenant/smooth_plating,
 /area/cloistered_light)
@@ -958,13 +1261,13 @@
 	id = "glift_ne_2";
 	height = -1
 	},
-/turf/open/floor/covenant/smooth_plating/sides/west,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "hK" = (
 /turf/open/floor/covenant/smooth_plating/corners/southwest,
 /area/cloistered_light/unggoy_quarters)
 "ia" = (
-/turf/open/floor/covenant/smooth_plating,
+/turf/open/floor/covenant/smooth_plating/blue/corners/northeast,
 /area/cloistered_light/canteen)
 "ii" = (
 /obj/structure/machinery/door/airlock/cov_door{
@@ -980,18 +1283,18 @@
 /obj/structure/ladder/gravity_lift{
 	id = "kig_dorm_2"
 	},
-/turf/open/floor/covenant/plating,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/kigyar_quarters)
 "jl" = (
 /obj/structure/surface/table/reinforced/covenant/alt,
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/smooth_plating/blue/sides/southwest,
 /area/cloistered_light/canteen)
 "jo" = (
 /obj/structure/ladder/gravity_lift{
 	id = "glift_se_1";
 	height = -1
 	},
-/turf/open/floor/covenant/smooth_plating/sides/west,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "jv" = (
 /turf/closed/wall/covenant/lights/brighter,
@@ -1009,7 +1312,7 @@
 /obj/structure/ladder/gravity_lift{
 	id = "glift_se_1"
 	},
-/turf/open/floor/covenant/smooth_plating/sides/west,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "jX" = (
 /turf/closed/wall/covenant,
@@ -1018,6 +1321,7 @@
 /turf/open/floor/covenant/smooth_plating/sides/north,
 /area/cloistered_light/hangar)
 "kH" = (
+/obj/structure/energy_barrier,
 /turf/open/floor/covenant/endcap/west,
 /area/cloistered_light/armory)
 "kJ" = (
@@ -1067,7 +1371,7 @@
 	id = "glift_sw_1";
 	height = -1
 	},
-/turf/open/floor/covenant/smooth_plating/sides/east,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "nS" = (
 /obj/effect/decal/covenant_trim{
@@ -1076,7 +1380,7 @@
 /obj/effect/decal/covenant_trim{
 	dir = 8
 	},
-/turf/open/floor/covenant/smooth_plating,
+/turf/open/floor/covenant/smooth_plating/blue,
 /area/cloistered_light/hallways)
 "nW" = (
 /turf/open/floor/covenant/smooth_plating/sides/southwest,
@@ -1100,11 +1404,13 @@
 /turf/open/floor/covenant/smooth_plating/sides/south,
 /area/cloistered_light)
 "pJ" = (
-/obj/structure/machinery/cm_vending/clothing,
-/turf/closed/wall/covenant,
+/turf/open/floor/covenant/under_plating/greebles,
 /area/cloistered_light/armory)
 "pM" = (
 /obj/structure/bed/stool,
+/obj/effect/decal/covenant_trim{
+	dir = 1
+	},
 /turf/open/floor/covenant,
 /area/cloistered_light/canteen)
 "pO" = (
@@ -1134,7 +1440,7 @@
 	id = "glift_sw_2";
 	height = -1
 	},
-/turf/open/floor/covenant/smooth_plating/sides/north,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "rE" = (
 /obj/structure/platform/shiva{
@@ -1152,6 +1458,9 @@
 /turf/open/floor/covenant/smooth_plating/corners/northeast,
 /area/cloistered_light/unggoy_quarters)
 "sS" = (
+/obj/effect/decal/covenant_trim{
+	dir = 8
+	},
 /turf/open/floor/covenant/smooth_plating/sides/east,
 /area/cloistered_light/canteen)
 "sT" = (
@@ -1168,21 +1477,25 @@
 /turf/open/floor/covenant/paneling/rotated,
 /area/cloistered_light/hallways)
 "tE" = (
+/obj/effect/decal/covenant_trim,
 /turf/open/floor/covenant/smooth_plating/sides/north,
 /area/cloistered_light/canteen)
 "tW" = (
 /obj/structure/bed/stool,
-/turf/open/floor/covenant/lane,
+/obj/effect/decal/covenant_trim{
+	dir = 4
+	},
+/turf/open/floor/covenant,
 /area/cloistered_light/canteen)
 "ua" = (
 /obj/structure/ladder/gravity_lift{
 	id = "glift_nw_1";
 	height = -1
 	},
-/turf/open/floor/covenant/smooth_plating/sides/south,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "uK" = (
-/turf/open/floor/covenant/smooth_plating/corners/southwest,
+/turf/open/floor/covenant/smooth_plating/blue/corners/southwest,
 /area/cloistered_light/canteen)
 "vp" = (
 /turf/open/floor/covenant/smooth_plating/corners/northeast,
@@ -1209,10 +1522,6 @@
 	},
 /turf/open/floor/covenant,
 /area/cloistered_light/canteen)
-"vS" = (
-/obj/structure/surface/table/reinforced/covenant,
-/turf/open/floor/covenant/lane,
-/area/cloistered_light/canteen)
 "wd" = (
 /turf/open/floor/covenant/smooth_plating/sides/south,
 /area/cloistered_light/hangar)
@@ -1223,14 +1532,14 @@
 /obj/effect/decal/covenant_trim/seamless{
 	dir = 4
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light/sangheili_quarters)
 "xM" = (
 /obj/effect/decal/covenant_trim,
 /obj/effect/decal/covenant_trim{
 	dir = 1
 	},
-/turf/open/floor/covenant/smooth_plating,
+/turf/open/floor/covenant/smooth_plating/blue,
 /area/cloistered_light/hallways)
 "xO" = (
 /obj/structure/surface/table/reinforced/covenant,
@@ -1244,7 +1553,7 @@
 /area/cloistered_light)
 "yo" = (
 /obj/structure/ladder/gravity_lift,
-/turf/open/floor/covenant/smooth_plating,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/canteen)
 "yt" = (
 /turf/open/floor/covenant/paneling/rotated,
@@ -1266,14 +1575,14 @@
 /turf/open/floor/covenant/plating,
 /area/cloistered_light/hangar)
 "zb" = (
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker/inverted,
 /area/cloistered_light/kigyar_quarters)
 "zh" = (
 /obj/structure/ladder/gravity_lift{
 	id = "glift_nw_2";
 	height = -1
 	},
-/turf/open/floor/covenant/smooth_plating/sides/east,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "zi" = (
 /turf/open/floor/covenant,
@@ -1312,7 +1621,7 @@
 /area/cloistered_light/armory)
 "Bu" = (
 /obj/structure/surface/table/reinforced/covenant,
-/turf/open/floor/covenant/smooth_plating/sides/south,
+/turf/open/floor/covenant/smooth_plating/blue/sides/south,
 /area/cloistered_light/canteen)
 "Bx" = (
 /turf/open/floor/covenant/paneling,
@@ -1322,7 +1631,7 @@
 /area/cloistered_light/kigyar_quarters)
 "Ca" = (
 /obj/structure/surface/table/reinforced/covenant,
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/smooth_plating/sides/southwest,
 /area/cloistered_light/canteen)
 "Cg" = (
 /obj/effect/decal/covenant_trim/seamless,
@@ -1351,16 +1660,9 @@
 /obj/structure/machinery/door/airlock/multi_tile/cov_door/prop,
 /turf/open/floor/covenant/paneling/rotated,
 /area/cloistered_light/hallways)
-"Dm" = (
-/obj/structure/machinery/cm_vending/clothing,
-/turf/open/space/basic,
-/area/cloistered_light/armory)
 "Dt" = (
 /turf/open/floor/covenant/lane/vertical,
 /area/cloistered_light/hangar)
-"DJ" = (
-/turf/open/floor/covenant/lane,
-/area/cloistered_light/canteen)
 "Eb" = (
 /turf/open/floor/covenant/smooth_plating/sides/northwest,
 /area/cloistered_light/kigyar_quarters)
@@ -1375,7 +1677,7 @@
 /obj/structure/ladder/gravity_lift{
 	id = "glift_ne_1"
 	},
-/turf/open/floor/covenant/smooth_plating/sides/south,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "Eu" = (
 /turf/open/floor/covenant/smooth_plating/sides/northeast,
@@ -1391,14 +1693,8 @@
 /obj/structure/ladder/gravity_lift{
 	id = "kig_dorm_1"
 	},
-/turf/open/floor/covenant/plating,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/kigyar_quarters)
-"EX" = (
-/obj/structure/energy_barrier{
-	dir = 8
-	},
-/turf/open/floor/covenant/paneling,
-/area/cloistered_light/hallways)
 "Fc" = (
 /turf/open/floor/covenant/smooth_plating/corners/northeast,
 /area/space)
@@ -1408,10 +1704,6 @@
 "FJ" = (
 /turf/open/floor/covenant/smooth_plating/sides/east,
 /area/space)
-"FQ" = (
-/obj/structure/machinery/cm_vending/clothing,
-/turf/open/floor/covenant,
-/area/cloistered_light/unggoy_quarters)
 "FY" = (
 /turf/open/floor/covenant/smooth_plating/corners/northwest,
 /area/cloistered_light/hallways)
@@ -1419,6 +1711,7 @@
 /turf/closed/wall/covenant/lights/brighter,
 /area/cloistered_light/kigyar_quarters)
 "GC" = (
+/obj/structure/energy_barrier,
 /turf/open/floor/covenant/endcap/east,
 /area/cloistered_light/armory)
 "GS" = (
@@ -1438,13 +1731,13 @@
 /obj/structure/ladder/gravity_lift{
 	id = "glift_ne_2"
 	},
-/turf/open/floor/covenant/smooth_plating/sides/west,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "HJ" = (
 /obj/effect/decal/covenant_trim{
 	dir = 4
 	},
-/turf/open/floor/covenant,
+/turf/open/floor/covenant/darker,
 /area/cloistered_light)
 "HV" = (
 /turf/open/floor/covenant/paneling,
@@ -1464,7 +1757,7 @@
 	id = "glift_se_2";
 	height = -1
 	},
-/turf/open/floor/covenant/smooth_plating/sides/north,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "Js" = (
 /turf/closed/wall/covenant/lights/brighter,
@@ -1480,6 +1773,7 @@
 /turf/open/void,
 /area/cloistered_light/sangheili_quarters)
 "Ka" = (
+/obj/structure/energy_barrier,
 /turf/open/floor/covenant/lane/horizontal,
 /area/cloistered_light/armory)
 "Ko" = (
@@ -1501,7 +1795,7 @@
 /obj/structure/ladder/gravity_lift{
 	id = "glift_nw_2"
 	},
-/turf/open/floor/covenant/smooth_plating/sides/east,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "Lt" = (
 /obj/structure/machinery/door/airlock/multi_tile/cov_door/prop{
@@ -1530,7 +1824,7 @@
 /obj/structure/ladder/gravity_lift{
 	id = "glift_sw_1"
 	},
-/turf/open/floor/covenant/smooth_plating/sides/east,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "MP" = (
 /turf/closed/wall/covenant,
@@ -1553,6 +1847,9 @@
 /turf/closed/wall/covenant,
 /area/cloistered_light/hallways)
 "NE" = (
+/obj/effect/decal/covenant_trim{
+	dir = 1
+	},
 /turf/open/floor/covenant/smooth_plating/sides/southwest,
 /area/cloistered_light/canteen)
 "Om" = (
@@ -1595,10 +1892,6 @@
 "PF" = (
 /turf/open/floor/covenant/smooth_plating/sides/southwest,
 /area/cloistered_light/kigyar_quarters)
-"PG" = (
-/obj/structure/pipes/vents/pump,
-/turf/open/floor/covenant/endcap/east,
-/area/cloistered_light/unggoy_quarters)
 "PR" = (
 /turf/closed/wall/covenant,
 /area/cloistered_light/unggoy_quarters)
@@ -1612,7 +1905,7 @@
 /obj/structure/ladder/gravity_lift{
 	id = "glift_nw_1"
 	},
-/turf/open/floor/covenant/smooth_plating/sides/south,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "Qs" = (
 /turf/open/floor/covenant/smooth_plating,
@@ -1665,10 +1958,10 @@
 /turf/open/floor/covenant/smooth_plating/sides/south,
 /area/space)
 "TK" = (
-/turf/open/floor/covenant/smooth_plating/corners/southeast,
+/turf/open/floor/covenant/smooth_plating/blue/corners/southeast,
 /area/cloistered_light/canteen)
 "Ua" = (
-/turf/open/floor/covenant/smooth_plating/sides/south,
+/turf/open/floor/covenant/smooth_plating/blue/sides/south,
 /area/cloistered_light/canteen)
 "Ui" = (
 /turf/open/floor/covenant/smooth_plating/sides/southwest,
@@ -1693,7 +1986,7 @@
 /obj/structure/ladder/gravity_lift{
 	id = "glift_se_2"
 	},
-/turf/open/floor/covenant/smooth_plating/sides/north,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "VL" = (
 /obj/structure/machinery/door/airlock/multi_tile/cov_door/prop{
@@ -1711,12 +2004,6 @@
 	},
 /turf/open/floor/covenant/smooth_plating/sides/northwest,
 /area/cloistered_light/kigyar_quarters)
-"WC" = (
-/obj/structure/platform/shiva{
-	dir = 1
-	},
-/turf/open/floor/covenant/lane,
-/area/cloistered_light/canteen)
 "WH" = (
 /turf/open/floor/covenant/smooth_plating/sides/north,
 /area/space)
@@ -1737,7 +2024,7 @@
 	id = "glift_ne_1";
 	height = -1
 	},
-/turf/open/floor/covenant/smooth_plating/sides/south,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
 "Xy" = (
 /turf/open/floor/covenant/endcap/east,
@@ -1765,12 +2052,8 @@
 /obj/structure/ladder/gravity_lift{
 	id = "glift_sw_2"
 	},
-/turf/open/floor/covenant/smooth_plating/sides/north,
+/turf/open/floor/covenant/plating/blue,
 /area/cloistered_light/hallways)
-"Yk" = (
-/obj/structure/pipes/vents/pump,
-/turf/open/floor/covenant/plating,
-/area/cloistered_light/unggoy_quarters)
 "Yr" = (
 /turf/open/floor/covenant/endcap/west,
 /area/cloistered_light/hangar)
@@ -2514,7 +2797,7 @@ rX
 rX
 PR
 iO
-iO
+dT
 iO
 iO
 vq
@@ -2665,9 +2948,9 @@ rX
 rX
 PR
 PR
-iO
-Yk
-iO
+dX
+ah
+dP
 iO
 vq
 AJ
@@ -2818,7 +3101,7 @@ rX
 PR
 iO
 iO
-iO
+dU
 iO
 iO
 vq
@@ -2827,7 +3110,7 @@ jK
 iO
 iO
 vq
-AJ
+dm
 jK
 iO
 iO
@@ -3144,11 +3427,11 @@ PR
 rX
 rX
 rX
-xW
-xW
-aa
-xW
-xW
+PR
+PR
+Om
+PR
+PR
 rX
 rX
 rX
@@ -3283,24 +3566,24 @@ xO
 cn
 cn
 xO
-FQ
+Vx
 xO
 cn
 cn
 xO
 Om
-aE
-PG
-aJ
-Om
-PR
-rX
-xW
-aa
 af
 ah
 ac
-aa
+Om
+PR
+rX
+PR
+Om
+af
+ah
+ac
+Om
 rX
 rX
 rX
@@ -3427,10 +3710,10 @@ rX
 PR
 Om
 cn
-cn
+dm
 Om
 PR
-FQ
+Vx
 Vx
 Vx
 Vx
@@ -3442,13 +3725,13 @@ Vx
 aU
 WR
 aS
-aC
+ai
 aL
-Vx
+dh
 Om
 PR
-aa
-PC
+Om
+dh
 ao
 ai
 ae
@@ -3593,18 +3876,18 @@ Vx
 Vx
 aE
 cn
-aJ
-Vx
-Vx
+ac
+dh
+dh
 aD
-aB
+ap
 PR
 ap
 au
-PC
-PC
+dh
+dh
 af
-SG
+cn
 rX
 rX
 rX
@@ -3746,17 +4029,17 @@ Vx
 aV
 cn
 aT
-Vx
-Vx
-aE
-cY
+dh
+dh
+af
+ah
 Om
-az
+ah
 ac
-PC
-PC
+dh
+dh
 ag
-SG
+cn
 rX
 rX
 rX
@@ -3897,18 +4180,18 @@ Vx
 Vx
 Vx
 Om
-Vx
+dh
 aP
-aB
+ap
 aF
-aC
+ai
 PR
 ai
 av
 ap
 aj
-PC
-aa
+dh
+Om
 rX
 rX
 rX
@@ -3981,18 +4264,18 @@ rX
 rX
 rX
 bL
-tx
-tx
-tx
+dL
+dI
+dE
 bL
 jX
 jX
 jX
 jX
 bL
-tx
-tx
-tx
+dL
+dI
+dE
 bL
 jX
 jX
@@ -4055,12 +4338,12 @@ bU
 bU
 Om
 PR
-bL
-EX
-EX
-EX
-bL
-jX
+Om
+bU
+bU
+bU
+Om
+PR
 jX
 jX
 jX
@@ -4132,22 +4415,22 @@ rX
 rX
 rX
 rX
-aW
 Ex
 Ex
-Ex
-Ex
-aW
-Ex
-Ex
-aW
+di
 Ex
 Ex
 Ex
 Ex
 Ex
 Ex
-aW
+Ex
+Ex
+di
+Ex
+Ex
+Ex
+di
 Ex
 Ex
 Ex
@@ -4190,7 +4473,7 @@ cn
 cn
 Om
 PR
-FQ
+Vx
 Vx
 Vx
 PR
@@ -4199,14 +4482,14 @@ Ex
 Ex
 Ex
 Ex
-aW
+di
 Ex
 Ex
 aw
 aq
 ak
 Ex
-xM
+di
 Ex
 aw
 aq
@@ -4284,22 +4567,22 @@ rX
 rX
 rX
 rX
-aW
 Ex
 Ex
-Ex
-Ex
-aW
-Ex
-Ex
-aW
+di
 Ex
 Ex
 Ex
 Ex
 Ex
 Ex
-aW
+Ex
+Ex
+di
+Ex
+Ex
+Ex
+di
 Ex
 Ex
 Ex
@@ -4351,14 +4634,14 @@ Ex
 Ex
 Ex
 Ex
-aW
+di
 Ex
 Ex
 Ex
 Ex
 Ex
 Ex
-xM
+di
 Ex
 Ex
 Ex
@@ -4436,22 +4719,22 @@ rX
 rX
 rX
 rX
-aW
 Ex
 Ex
-Ex
-Ex
-aW
-Ex
-Ex
-aW
+di
 Ex
 Ex
 Ex
 Ex
 Ex
 Ex
-aW
+Ex
+Ex
+di
+Ex
+Ex
+Ex
+di
 Ex
 Ex
 bL
@@ -4503,14 +4786,14 @@ Ex
 bL
 Ex
 Ex
-aW
+di
 Ex
 Ex
 Ex
 Ex
 Ex
 Ex
-xM
+di
 Ex
 Ex
 Ex
@@ -4589,18 +4872,18 @@ rX
 rX
 rX
 bL
-tx
-tx
-tx
+dM
+dJ
+dF
 bL
 jX
 jX
 jX
 jX
 bL
-tx
-tx
-tx
+dM
+dJ
+dF
 bL
 jX
 jX
@@ -4645,7 +4928,7 @@ iO
 iO
 iO
 jw
-AJ
+dm
 AJ
 Vx
 Vx
@@ -4809,17 +5092,17 @@ Ex
 bL
 jX
 rX
-jX
-EX
-EX
-EX
-jX
+PR
+bU
+bU
+bU
+PR
 rX
-jX
-EX
-EX
-EX
-jX
+PR
+bU
+bU
+bU
+PR
 rX
 jX
 jX
@@ -4893,8 +5176,8 @@ rX
 rX
 vK
 vK
-Dg
-Dg
+eC
+eC
 jv
 vK
 Dg
@@ -4961,17 +5244,17 @@ jX
 jX
 rX
 rX
-xW
+PR
 aQ
 aM
 aG
-xW
+PR
 rX
-xW
+PR
 ay
 as
 am
-xW
+PR
 rX
 rX
 jX
@@ -5046,8 +5329,8 @@ vK
 vK
 wj
 da
-cH
-Dg
+eD
+eC
 vK
 vK
 Dg
@@ -5113,17 +5396,17 @@ jX
 rX
 rX
 rX
-aa
-PC
+Om
+dh
 af
 aH
-aa
+Om
 rX
-aa
-az
+Om
+ah
 ac
-PC
-aa
+dh
+Om
 rX
 rX
 rX
@@ -5198,8 +5481,8 @@ vK
 cy
 Cg
 HV
-cI
-Dg
+eE
+eC
 cR
 jv
 cH
@@ -5265,17 +5548,17 @@ bL
 jX
 rX
 rX
-xW
-aR
+PR
+aP
 aO
 aI
-xW
+PR
 rX
-xW
+PR
 aA
 at
 aj
-xW
+PR
 rX
 rX
 jX
@@ -5351,7 +5634,7 @@ Ah
 yI
 jv
 dS
-Dg
+eC
 cS
 ii
 cI
@@ -5365,11 +5648,11 @@ JF
 JF
 vK
 jX
-Aj
+dn
 Ex
 Ex
 Ex
-Aj
+dj
 jX
 rX
 rX
@@ -5409,25 +5692,25 @@ rX
 rX
 rX
 jX
-Aj
+dn
 Ex
 Ex
 Ex
-Aj
+dj
 jX
 rX
 rX
-xW
-Bx
-Bx
+PR
+AJ
+AJ
 an
-xW
+PR
 rX
-xW
-Bx
-Bx
+PR
+AJ
+AJ
 an
-xW
+PR
 rX
 rX
 jX
@@ -5502,8 +5785,8 @@ vK
 cx
 II
 HV
-cI
-Dg
+eE
+eC
 cT
 jv
 or
@@ -5517,11 +5800,11 @@ JF
 JF
 vK
 jX
-Aj
-Ex
-Ex
-Ex
-Aj
+do
+nS
+nS
+nS
+dk
 jX
 rX
 rX
@@ -5561,11 +5844,11 @@ rX
 rX
 rX
 jX
-Aj
+do
 Ex
 Ex
 Ex
-Aj
+dk
 jX
 rX
 rX
@@ -5654,8 +5937,8 @@ vK
 vK
 de
 db
-cN
-Dg
+eF
+eC
 vK
 vK
 cJ
@@ -5669,11 +5952,11 @@ JF
 vK
 vK
 jX
-Aj
+dp
 Ex
 Ex
 Ex
-Aj
+dl
 jX
 rX
 rX
@@ -5713,11 +5996,11 @@ rX
 rX
 rX
 jX
-Aj
+dp
 Ex
 Ex
 Ex
-Aj
+dl
 jX
 rX
 rX
@@ -6108,9 +6391,9 @@ rX
 rX
 vK
 vK
-Dg
-Dg
-Dg
+eG
+eG
+eG
 vK
 cx
 ct
@@ -6132,9 +6415,9 @@ Ex
 Ex
 Ex
 bL
-tx
-tx
-tx
+dL
+dI
+dE
 bL
 jX
 jX
@@ -6164,9 +6447,9 @@ jX
 jX
 jX
 bL
-tx
-tx
-tx
+dL
+dI
+dE
 bL
 Ex
 Ex
@@ -6259,10 +6542,10 @@ rX
 rX
 rX
 vK
-Dg
-Dg
-Dg
-Dg
+eG
+eG
+eG
+eG
 cU
 cu
 cu
@@ -6283,7 +6566,7 @@ Ex
 Ex
 Ex
 Ex
-aW
+di
 Ex
 Ex
 Ex
@@ -6319,7 +6602,7 @@ Ex
 Ex
 Ex
 Ex
-aW
+di
 Ex
 Ex
 bL
@@ -6411,10 +6694,10 @@ rX
 rX
 rX
 jv
-Dg
-Dg
-Dg
-Dg
+eG
+eG
+eG
+eG
 cV
 cu
 cu
@@ -6435,7 +6718,7 @@ bL
 Ex
 Ex
 Ex
-aW
+di
 Ex
 Ex
 Ex
@@ -6471,7 +6754,7 @@ Ex
 Ex
 Ex
 Ex
-aW
+di
 Ex
 Ex
 Ex
@@ -6563,10 +6846,10 @@ rX
 rX
 rX
 vK
-Dg
-Dg
-Dg
-Dg
+eG
+eG
+eG
+eG
 cZ
 cu
 cu
@@ -6587,7 +6870,7 @@ Ex
 Ex
 Ex
 Ex
-aW
+di
 Ex
 Ex
 Ex
@@ -6623,7 +6906,7 @@ Ex
 Ex
 Ex
 Ex
-aW
+di
 Ex
 Ex
 Ex
@@ -6716,9 +6999,9 @@ rX
 rX
 vK
 vK
-Dg
-Dg
-Dg
+eG
+eG
+eG
 vK
 cy
 cs
@@ -6740,9 +7023,9 @@ Ex
 Ex
 Ex
 bL
-tx
-tx
-tx
+dM
+dJ
+dF
 bL
 jX
 jX
@@ -6772,9 +7055,9 @@ jX
 jX
 jX
 bL
-tx
-tx
-tx
+dM
+dJ
+dF
 bL
 jX
 jX
@@ -7174,8 +7457,8 @@ vK
 vK
 da
 dd
-cH
-Dg
+eD
+eC
 vK
 vK
 cM
@@ -7189,11 +7472,11 @@ JF
 vK
 vK
 jX
-Aj
+dn
 Ex
 Ex
 Ex
-Aj
+dj
 jX
 rX
 rX
@@ -7326,8 +7609,8 @@ vK
 cy
 Cg
 HV
-cI
-Dg
+eE
+eC
 cR
 jv
 or
@@ -7341,11 +7624,11 @@ JF
 JF
 vK
 jX
-Aj
-Ex
-Ex
-Ex
-Aj
+do
+nS
+nS
+nS
+dk
 jX
 rX
 rX
@@ -7479,7 +7762,7 @@ Ah
 yI
 jv
 dS
-Dg
+eC
 cS
 OJ
 cI
@@ -7493,11 +7776,11 @@ JF
 JF
 vK
 jX
-Aj
+dp
 Ex
 Ex
 Ex
-Aj
+dl
 jX
 rX
 rX
@@ -7630,8 +7913,8 @@ vK
 cx
 II
 HV
-cI
-Dg
+eE
+eC
 cT
 jv
 cN
@@ -7782,8 +8065,8 @@ vK
 vK
 df
 de
-cN
-Dg
+eF
+eC
 vK
 vK
 Dg
@@ -7798,9 +8081,9 @@ vK
 vK
 cf
 jX
-bI
-bI
-bI
+pO
+pO
+pO
 jX
 rX
 rX
@@ -7933,8 +8216,8 @@ rX
 rX
 vK
 vK
-Dg
-Dg
+eC
+eC
 jv
 vK
 Dg
@@ -8098,7 +8381,7 @@ vK
 vK
 vK
 vK
-cg
+ey
 cf
 cg
 XD
@@ -8248,10 +8531,10 @@ vK
 jv
 cf
 cf
-cg
+ey
 cf
 ch
-cg
+ev
 cf
 jX
 Ex
@@ -8403,7 +8686,7 @@ sU
 sU
 sU
 sU
-cg
+ew
 jX
 bL
 Ex
@@ -8427,11 +8710,11 @@ sU
 sU
 sU
 jX
-Aj
+dn
 Ex
 Ex
 Ex
-Aj
+dj
 jX
 rX
 rX
@@ -8555,13 +8838,13 @@ sU
 sU
 sU
 sU
-cf
+ew
 jX
-Aj
+dn
 Ex
 Ex
 Ex
-Aj
+dj
 jX
 rX
 rX
@@ -8579,11 +8862,11 @@ Wv
 Rr
 sU
 jX
-Aj
+dp
 Ex
 Ex
 Ex
-Aj
+dl
 jX
 rX
 rX
@@ -8698,7 +8981,7 @@ rX
 rX
 sU
 LT
-zb
+et
 zb
 GA
 sU
@@ -8707,13 +8990,13 @@ sU
 sU
 sU
 sU
-cg
+ew
 jX
-Aj
-Ex
-Ex
-Ex
-Aj
+do
+nS
+nS
+nS
+dk
 jX
 rX
 rX
@@ -8721,11 +9004,11 @@ rX
 sU
 GA
 LT
-zb
+et
 zb
 GA
 sU
-zb
+er
 sU
 ca
 sU
@@ -8859,13 +9142,13 @@ GA
 sU
 sU
 co
-cf
+ev
 jX
-Aj
+dp
 Ex
 Ex
 Ex
-Aj
+dl
 jX
 rX
 rX
@@ -9011,7 +9294,7 @@ fQ
 fQ
 sU
 sU
-cg
+ev
 jX
 bL
 Ex
@@ -9154,7 +9437,7 @@ sU
 sU
 XN
 sU
-zb
+er
 GA
 sU
 MR
@@ -9163,7 +9446,7 @@ fQ
 fQ
 fQ
 GA
-cf
+ew
 ch
 jX
 Ex
@@ -9177,7 +9460,7 @@ sU
 sU
 XN
 sU
-zb
+er
 sU
 GA
 LT
@@ -9315,7 +9598,7 @@ fQ
 fQ
 fQ
 sU
-cf
+ew
 cf
 jX
 Ex
@@ -9330,7 +9613,7 @@ lT
 Pm
 QR
 zb
-qx
+es
 sU
 sU
 Eb
@@ -9461,13 +9744,13 @@ GA
 sU
 sU
 sU
-sU
-fQ
-fQ
-fQ
-fQ
-sU
-cg
+eB
+eA
+eA
+eA
+eA
+ez
+ev
 cf
 jX
 Ex
@@ -9619,7 +9902,7 @@ fQ
 fQ
 fQ
 sU
-ch
+ex
 cf
 jX
 Ex
@@ -9762,7 +10045,7 @@ sU
 sU
 ca
 sU
-zb
+er
 GA
 sU
 MR
@@ -9785,7 +10068,7 @@ sU
 sU
 ca
 sU
-zb
+er
 sU
 GA
 LT
@@ -9925,11 +10208,11 @@ sU
 sU
 rX
 jX
-Aj
+dn
 Ex
 Ex
 Ex
-Aj
+dj
 jX
 rX
 rX
@@ -10077,11 +10360,11 @@ sU
 rX
 rX
 jX
-Aj
-Ex
-Ex
-Ex
-Aj
+do
+nS
+nS
+nS
+dk
 jX
 rX
 rX
@@ -10218,7 +10501,7 @@ rX
 rX
 sU
 LT
-zb
+eu
 zb
 GA
 sU
@@ -10229,11 +10512,11 @@ sU
 sU
 rX
 jX
-Aj
+dp
 Ex
 Ex
 Ex
-Aj
+dl
 jX
 rX
 rX
@@ -10241,11 +10524,11 @@ rX
 sU
 GA
 LT
-zb
+eu
 zb
 GA
 sU
-zb
+er
 sU
 XN
 sU
@@ -10403,11 +10686,11 @@ Hd
 Rr
 sU
 jX
-Aj
+em
 Ex
 Ex
 Ex
-Aj
+dj
 jX
 rX
 rX
@@ -10555,11 +10838,11 @@ sU
 sU
 sU
 jX
-Aj
+en
 Ex
 Ex
 Ex
-Aj
+dl
 jX
 rX
 rX
@@ -11011,11 +11294,11 @@ rX
 rX
 rX
 rX
-jX
-Ex
-Ex
-Ex
-jX
+ed
+nS
+nS
+nS
+ed
 rX
 rX
 rX
@@ -11314,13 +11597,13 @@ jX
 jX
 jX
 rX
-rX
 jX
+bL
 Ex
 Ex
 Ex
+bL
 jX
-rX
 rX
 rX
 rX
@@ -11467,11 +11750,11 @@ tx
 bL
 rX
 jX
-bL
+dn
 Ex
 Ex
 Ex
-bL
+dj
 jX
 rX
 rX
@@ -11619,11 +11902,11 @@ be
 Di
 rX
 jX
-Aj
+dp
 Ex
 Ex
 Ex
-Aj
+dl
 jX
 rX
 rX
@@ -11771,11 +12054,11 @@ bf
 tx
 rX
 jX
-Aj
+bL
 Ex
 Ex
 Ex
-Aj
+bL
 jX
 rX
 rX
@@ -11922,13 +12205,13 @@ Ex
 bg
 tx
 rX
+rX
 jX
-bL
 Ex
 Ex
 Ex
-bL
 jX
+rX
 rX
 rX
 rX
@@ -12075,11 +12358,11 @@ tx
 bL
 rX
 rX
-jX
-Ex
-Ex
-Ex
-jX
+ed
+nS
+nS
+nS
+ed
 rX
 rX
 rX
@@ -12378,13 +12661,13 @@ rX
 rX
 rX
 rX
-rX
 jX
+bL
 Ex
 Ex
 Ex
+bL
 jX
-rX
 rX
 rX
 rX
@@ -12530,13 +12813,13 @@ rX
 rX
 rX
 rX
-rX
 jX
+dn
 Ex
 Ex
 Ex
+dj
 jX
-rX
 rX
 rX
 rX
@@ -12683,11 +12966,11 @@ rX
 rX
 rX
 jX
-bL
+dp
 Ex
 Ex
 Ex
-bL
+dl
 jX
 rX
 rX
@@ -12835,11 +13118,11 @@ rX
 rX
 rX
 jX
-Aj
+bL
 Ex
 Ex
 Ex
-Aj
+bL
 jX
 rX
 rX
@@ -12986,13 +13269,13 @@ rX
 rX
 rX
 rX
+rX
 jX
-Aj
 Ex
 Ex
 Ex
-Aj
 jX
+rX
 rX
 rX
 rX
@@ -13138,13 +13421,13 @@ rX
 rX
 rX
 rX
-jX
-bL
-Ex
-Ex
-Ex
-bL
-jX
+rX
+rX
+rX
+rX
+rX
+rX
+rX
 rX
 rX
 rX
@@ -13291,11 +13574,11 @@ rX
 rX
 rX
 rX
-jX
-Ex
-Ex
-Ex
-jX
+rX
+rX
+rX
+rX
+rX
 rX
 rX
 rX
@@ -14660,9 +14943,9 @@ rX
 rX
 jX
 jX
-aw
-aq
-ak
+ek
+eh
+ef
 jX
 jX
 rX
@@ -14811,11 +15094,11 @@ rX
 rX
 jX
 jX
-Ex
-Ex
-Ex
-Ex
-Ex
+ec
+ec
+ec
+ec
+ec
 jX
 jX
 rX
@@ -14962,13 +15245,13 @@ jX
 jX
 jX
 jX
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 jX
 rX
 rX
@@ -15113,14 +15396,14 @@ tx
 tx
 tx
 bL
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 jX
 rX
 rX
@@ -15265,14 +15548,14 @@ Ex
 Ex
 be
 Di
-bb
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+eo
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 jX
 rX
 rX
@@ -15417,14 +15700,14 @@ Ex
 Ex
 bf
 tx
-bc
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+ep
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 jX
 rX
 jX
@@ -15569,14 +15852,14 @@ Ex
 Ex
 bg
 tx
-bd
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+eq
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 bL
 jX
 bL
@@ -15721,15 +16004,15 @@ tx
 tx
 tx
 bL
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 Aj
 Aj
 kJ
@@ -15874,14 +16157,14 @@ jX
 jX
 jX
 jX
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 Aj
 Aj
 kJ
@@ -16026,14 +16309,14 @@ rX
 rX
 rX
 jX
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 Aj
 Aj
 kJ
@@ -16178,13 +16461,13 @@ rX
 rX
 rX
 jX
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 bL
 jX
 bL
@@ -16330,13 +16613,13 @@ rX
 rX
 rX
 jX
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 jX
 rX
 jX
@@ -16482,13 +16765,13 @@ rX
 rX
 rX
 jX
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 jX
 rX
 rX
@@ -16501,9 +16784,9 @@ bL
 jX
 rX
 rX
-aR
-ap
-aj
+rX
+rX
+rX
 rX
 rX
 rX
@@ -16634,13 +16917,13 @@ rX
 rX
 rX
 jX
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 jX
 rX
 rX
@@ -16653,13 +16936,13 @@ jX
 rX
 rX
 rX
-Bx
-Bx
-Bx
 rX
-ba
-aZ
-aX
+rX
+rX
+rX
+rX
+rX
+rX
 rX
 rX
 rX
@@ -16786,13 +17069,13 @@ rX
 rX
 rX
 jX
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
-Ex
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 jX
 rX
 rX
@@ -16805,13 +17088,13 @@ bL
 rX
 rX
 rX
-aQ
-ai
-am
 rX
-af
-aZ
-ac
+rX
+rX
+rX
+rX
+rX
+rX
 rX
 rX
 rX
@@ -16939,11 +17222,11 @@ rX
 rX
 jX
 jX
-Ex
-Ex
-Ex
-Ex
-Ex
+ec
+ec
+ec
+ec
+ec
 jX
 jX
 rX
@@ -16961,9 +17244,9 @@ rX
 rX
 rX
 rX
-ag
-aZ
-aY
+rX
+rX
+rX
 rX
 rX
 rX
@@ -17092,9 +17375,9 @@ rX
 rX
 jX
 jX
-ax
-ar
-al
+el
+ei
+eg
 jX
 jX
 rX
@@ -17258,8 +17541,8 @@ Ko
 Ko
 Ko
 Ko
-pM
-pM
+tW
+tW
 Ko
 MP
 rX
@@ -17409,8 +17692,8 @@ MP
 Ko
 Ko
 Ko
-pM
-Ca
+dY
+dV
 Ca
 pM
 MP
@@ -17546,11 +17829,11 @@ CC
 nG
 nG
 ya
-zi
+ee
 SV
-zi
-zi
-zi
+ee
+ee
+ee
 SV
 ya
 rX
@@ -17561,14 +17844,14 @@ MP
 Ko
 Ko
 Ko
-pM
-Ca
-Ca
+dY
+dW
+dQ
 pM
 cW
 MP
 zJ
-NE
+dt
 MP
 MP
 rX
@@ -17697,27 +17980,27 @@ CC
 CC
 CC
 VS
-zi
-zi
-zi
-zi
-zi
-zi
-zi
+ee
+ee
+ee
+ee
+ee
+ee
+ee
 ya
 rX
 MP
 MP
 MP
 cW
-DJ
-DJ
-DJ
-DJ
-tW
-tW
-DJ
-DJ
+Ko
+Ko
+Ko
+Ko
+dv
+dv
+Ko
+Ko
 MP
 tE
 yo
@@ -17850,17 +18133,17 @@ CC
 bz
 fv
 bt
-zi
-zi
-zi
-zi
-zi
-zi
+ee
+ee
+ee
+ee
+ee
+ee
 ya
 MP
 MP
-zJ
-NE
+dB
+dr
 yK
 Ko
 Ko
@@ -18002,27 +18285,27 @@ CC
 bA
 SA
 bu
-zi
-zi
-zi
-zi
-zi
-zi
+ee
+ee
+ee
+ee
+ee
+ee
 SV
 MP
 EM
-tE
+dC
 Ua
 QK
 zE
 Ko
-pM
-pM
+tW
+tW
 Ko
 Ko
 Ko
 Ko
-Ko
+dG
 ej
 MP
 MP
@@ -18154,21 +18437,21 @@ CC
 bB
 SA
 bv
-zi
-zi
-zi
-zi
-zi
-zi
+ee
+ee
+ee
+ee
+ee
+ee
 ya
 cW
 EM
-tE
+dC
 uK
 cW
 rE
-pM
-Ca
+dY
+dV
 Ca
 pM
 Ko
@@ -18315,21 +18598,21 @@ HJ
 ya
 MP
 EM
-hx
+dD
 ia
 Bu
-WC
-tW
-vS
-vS
-tW
-DJ
-tW
-tW
+rE
+dY
+dW
+dQ
+pM
+Ko
 tW
 tW
 tW
-DJ
+tW
+tW
+Ko
 MP
 rX
 rX
@@ -18467,21 +18750,21 @@ kP
 Ui
 MP
 EM
-Ko
-tE
+ea
+dC
 Bu
 rE
 Ko
-pM
-pM
+dv
+dv
 Ko
-Ko
+dR
+dN
+dz
+dz
+dz
 jl
-jl
-jl
-jl
-jl
-Ko
+dq
 MP
 rX
 rX
@@ -18619,21 +18902,21 @@ eP
 pj
 MP
 EM
-Ko
-tE
+eb
+dC
 Bu
 rE
 Ko
-pM
-pM
+tW
+tW
 Ko
-Ko
-jl
-jl
-jl
-jl
-jl
-Ko
+dR
+dO
+dA
+dA
+dA
+du
+dq
 MP
 rX
 rX
@@ -18771,21 +19054,21 @@ eP
 pj
 MP
 EM
-zJ
-ia
+dB
+dy
 Bu
-WC
-tW
-vS
-vS
-tW
-DJ
-tW
-tW
-tW
-tW
-tW
-DJ
+rE
+dY
+dV
+Ca
+pM
+Ko
+dv
+dv
+dv
+dv
+dv
+Ko
 MP
 rX
 rX
@@ -18900,7 +19183,7 @@ ne
 ne
 ne
 WM
-Dm
+pJ
 Ka
 Be
 CC
@@ -18923,13 +19206,13 @@ eP
 pj
 cW
 Af
-tE
+dC
 TK
 cW
 rE
-pM
-Ca
-Ca
+dY
+dW
+dQ
 pM
 Ko
 cW
@@ -19052,7 +19335,7 @@ ne
 ne
 ne
 WM
-Dm
+pJ
 Ka
 Be
 CC
@@ -19064,7 +19347,7 @@ bG
 CC
 Be
 Ka
-Dm
+pJ
 ya
 Eu
 ad
@@ -19075,19 +19358,19 @@ ad
 YT
 MP
 Af
-tE
+dC
 Ua
 yK
 vN
 Ko
-pM
-pM
+dv
+dv
 Ko
 Ko
 Ko
 Ko
-Ko
-Ko
+dH
+ej
 MP
 MP
 MP
@@ -19216,7 +19499,7 @@ bG
 CC
 Be
 Ka
-Dm
+pJ
 ya
 bn
 bn
@@ -19227,8 +19510,8 @@ bn
 ya
 MP
 MP
-hx
-mN
+dD
+ds
 QK
 Ko
 Ko
@@ -19238,10 +19521,10 @@ Ko
 Ko
 Ko
 Ko
-Ko
-Ko
-Ko
-Ko
+XT
+dB
+dx
+dr
 MP
 rX
 rX
@@ -19368,7 +19651,7 @@ bG
 CC
 Be
 Ka
-Dm
+pJ
 ya
 Fd
 kP
@@ -19382,18 +19665,18 @@ MP
 MP
 MP
 cW
-DJ
-DJ
-DJ
-DJ
+Ko
+Ko
+Ko
+Ko
 tW
 tW
-DJ
-DJ
+Ko
+Ko
 MP
-Ko
-Ko
-Ko
+dC
+dy
+ds
 cW
 rX
 rX
@@ -19508,7 +19791,7 @@ ne
 ne
 ne
 WM
-Dm
+pJ
 Ka
 Be
 CC
@@ -19520,7 +19803,7 @@ bG
 CC
 Be
 Ka
-Dm
+pJ
 SV
 Eu
 eP
@@ -19528,23 +19811,23 @@ eP
 eP
 pj
 ya
-eP
-eP
-eP
-eP
+dZ
+dZ
+dZ
+dZ
 ya
 MP
 Ko
 Ko
 Ko
-pM
-Ca
+dY
+dV
 Ca
 pM
 cW
 MP
-Ko
-Ko
+dD
+ds
 MP
 MP
 rX
@@ -19672,7 +19955,7 @@ bG
 CC
 Be
 Ka
-Dm
+pJ
 ya
 ya
 Eu
@@ -19680,18 +19963,18 @@ eP
 eP
 pj
 KI
-eP
-eP
-eP
-eP
-eP
+dZ
+dZ
+dZ
+dZ
+dZ
 MP
 Ko
 Ko
 Ko
-pM
-Ca
-Ca
+dY
+dW
+dQ
 pM
 MP
 MP
@@ -19824,7 +20107,7 @@ bE
 CC
 Be
 Ka
-Dm
+pJ
 ya
 ya
 SV
@@ -19832,18 +20115,18 @@ Eu
 eP
 pj
 KI
-eP
-eP
-eP
-eP
-eP
+dZ
+dZ
+dZ
+dZ
+dZ
 MP
 Ko
 Ko
 Ko
 Ko
-pM
-pM
+dv
+dv
 Ko
 MP
 rX
@@ -19964,7 +20247,7 @@ ne
 ne
 ne
 WM
-Dm
+pJ
 Ka
 Be
 CC
@@ -19976,7 +20259,7 @@ bH
 CC
 Be
 Ka
-Dm
+pJ
 ya
 ya
 ya
@@ -19984,10 +20267,10 @@ ya
 Eu
 YT
 ya
-eP
-eP
-eP
-eP
+dZ
+dZ
+dZ
+dZ
 ya
 cW
 bm
@@ -20116,7 +20399,7 @@ ne
 ne
 ne
 WM
-Dm
+pJ
 Ka
 Be
 CC
