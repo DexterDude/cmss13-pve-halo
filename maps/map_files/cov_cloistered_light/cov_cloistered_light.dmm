@@ -1,7 +1,8 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/closed/wall/covenant,
 /area/cloistered_light/unggoy_quarters)
@@ -24,7 +25,8 @@
 	dir = 8
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -35,7 +37,8 @@
 "ag" = (
 /obj/effect/decal/covenant_trim/endcap_left,
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -72,7 +75,8 @@
 	dir = 8
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -121,7 +125,8 @@
 	dir = 8
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -139,7 +144,8 @@
 	dir = 8
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -163,7 +169,8 @@
 	dir = 4
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -172,7 +179,8 @@
 	dir = 8
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -190,14 +198,16 @@
 	dir = 4
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "aC" = (
 /obj/effect/decal/covenant_trim/seamless,
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -210,7 +220,8 @@
 "aE" = (
 /obj/effect/decal/covenant_trim/seamless,
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant,
 /area/cloistered_light/unggoy_quarters)
@@ -229,13 +240,15 @@
 	dir = 4
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "aH" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/under_plating,
 /area/cloistered_light/unggoy_quarters)
@@ -247,13 +260,15 @@
 	dir = 8
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "aJ" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -297,7 +312,8 @@
 	dir = 8
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -306,7 +322,8 @@
 	dir = 1
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -316,7 +333,8 @@
 	},
 /obj/effect/decal/covenant_trim/corner/seamless,
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -325,7 +343,8 @@
 	dir = 1
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
@@ -342,20 +361,23 @@
 	dir = 4
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "aX" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/closed/wall/covenant/lights/brighter,
 /area/cloistered_light/unggoy_quarters)
 "aY" = (
 /obj/structure/pipes/vents/pump,
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/under_plating/greebles,
 /area/cloistered_light/unggoy_quarters)
@@ -364,13 +386,15 @@
 	dir = 4
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
 "ba" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/smooth_plating,
 /area/cloistered_light/unggoy_quarters)
@@ -899,7 +923,8 @@
 /area/cloistered_light/hallways)
 "cY" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/smooth_plating/corners/northeast,
 /area/cloistered_light/unggoy_quarters)
@@ -1104,7 +1129,8 @@
 	dir = 1
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /obj/effect/landmark/species_start/unggoy,
 /turf/open/floor/covenant/smooth_plating,
@@ -1334,13 +1360,15 @@
 "eH" = (
 /obj/structure/surface/table/reinforced/covenant,
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/endcap/east,
 /area/cloistered_light/unggoy_quarters)
 "eI" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant,
 /area/cloistered_light/unggoy_quarters)
@@ -1350,16 +1378,19 @@
 /area/cloistered_light/unggoy_quarters)
 "eK" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/paneling/rotated,
 /area/cloistered_light/unggoy_quarters)
 "eL" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant,
 /area/cloistered_light/unggoy_quarters)
@@ -1369,7 +1400,8 @@
 /area/cloistered_light/unggoy_quarters)
 "eN" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/paneling,
 /area/cloistered_light/unggoy_quarters)
@@ -1386,23 +1418,27 @@
 /area/cloistered_light/unggoy_quarters)
 "eR" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/smooth_plating,
 /area/cloistered_light/unggoy_quarters)
 "eS" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /obj/effect/landmark/species_start/unggoy,
 /turf/open/floor/covenant/smooth_plating/sides/north,
 /area/cloistered_light/unggoy_quarters)
 "eT" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/smooth_plating/sides/north,
 /area/cloistered_light/unggoy_quarters)
@@ -1412,47 +1448,55 @@
 /area/cloistered_light/unggoy_quarters)
 "eV" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/smooth_plating/sides/south,
 /area/cloistered_light/unggoy_quarters)
 "eW" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/under_plating/greebles,
 /area/cloistered_light/unggoy_quarters)
 "eX" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /obj/effect/landmark/species_start/unggoy,
 /turf/open/floor/covenant/smooth_plating,
 /area/cloistered_light/unggoy_quarters)
 "eY" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/smooth_plating/corners/southwest,
 /area/cloistered_light/unggoy_quarters)
 "eZ" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/smooth_plating/sides/east,
 /area/cloistered_light/unggoy_quarters)
 "fa" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/smooth_plating/sides/west,
 /area/cloistered_light/unggoy_quarters)
 "fb" = (
 /obj/effect/particle_effect/smoke/methane{
-	alpha = 50
+	alpha = 50;
+	opacity = 0
 	},
 /turf/open/floor/covenant/smooth_plating/corners/southeast,
 /area/cloistered_light/unggoy_quarters)
