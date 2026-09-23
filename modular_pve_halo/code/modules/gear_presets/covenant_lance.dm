@@ -4,6 +4,12 @@
 	faction_group = FACTION_LIST_COVENANT
 	flags = null
 
+/datum/equipment_preset/covenant/lance/load_race(mob/living/carbon/human/new_human, client/mob_client)
+	if(new_human.client && new_human.client.prefs.species == SPECIES_RUUHTIAN)
+		new_human.set_species(SPECIES_RUUHTIAN)
+	else
+		new_human.set_species(SPECIES_UNGGOY)
+
 /datum/equipment_preset/covenant/lance/lance_standard
 	name = "Lance Warrior"
 	rank = JOB_COV_LANCE_STANDARD
@@ -79,6 +85,10 @@
 	paygrades = list(PAY_SHORT_COV_S2 = JOB_PLAYTIME_TIER_0)
 	faction_group = FACTION_LIST_COVENANT
 	skills = /datum/skills/covenant/sangheili
+
+/datum/equipment_preset/covenant/lance/lance_leader/load_race(mob/living/carbon/human/new_human, client/mob_client)
+	if(new_human.client)
+		new_human.set_species(SPECIES_SANGHEILI)
 
 /datum/equipment_preset/covenant/lance/lance_leader/minor_greater
 	name = parent_type::name + " (Minor+)"
