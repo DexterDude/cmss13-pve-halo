@@ -1,4 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/closed/wall/covenant/lights,
+/area/cloistered_light/unggoy_quarters)
 "ab" = (
 /obj/structure/machinery/door/airlock/multi_tile/cov_door/prop,
 /turf/open/floor/covenant/paneling/rotated,
@@ -143,6 +146,14 @@
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
+"az" = (
+/obj/effect/decal/covenant_trim{
+	dir = 1
+	},
+/obj/effect/decal/covenant_trim,
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/covenant/smooth_plating/blue,
+/area/cloistered_light/hallways)
 "aA" = (
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 4
@@ -151,6 +162,17 @@
 	dir = 8
 	},
 /turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
+"aB" = (
+/obj/structure/energy_barrier{
+	dir = 8
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/covenant/paneling,
+/area/cloistered_light/unggoy_quarters)
+"aC" = (
+/obj/structure/machinery/cm_vending/clothing/antag,
+/turf/open/floor/covenant,
 /area/cloistered_light/unggoy_quarters)
 "aD" = (
 /obj/effect/decal/covenant_trim/corner/seamless{
@@ -189,6 +211,10 @@
 	dir = 8
 	},
 /turf/open/floor/covenant/darker,
+/area/cloistered_light/unggoy_quarters)
+"aJ" = (
+/obj/structure/machinery/cm_vending/clothing/dress,
+/turf/open/floor/covenant,
 /area/cloistered_light/unggoy_quarters)
 "aK" = (
 /obj/item/stool,
@@ -231,6 +257,10 @@
 	},
 /turf/open/floor/covenant/darker,
 /area/cloistered_light/unggoy_quarters)
+"aR" = (
+/obj/structure/machinery/cm_vending/clothing,
+/turf/open/floor/covenant,
+/area/cloistered_light/unggoy_quarters)
 "aS" = (
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 1
@@ -252,6 +282,36 @@
 /obj/effect/decal/covenant_trim/endcap_left,
 /turf/open/floor/covenant,
 /area/cloistered_light/unggoy_quarters)
+"aW" = (
+/obj/effect/decal/covenant_trim/endcap_left{
+	dir = 1
+	},
+/turf/open/floor/covenant,
+/area/space)
+"aX" = (
+/obj/effect/decal/covenant_trim/seamless{
+	dir = 1
+	},
+/turf/open/floor/covenant,
+/area/space)
+"aY" = (
+/obj/effect/decal/covenant_trim/endcap_right{
+	dir = 1
+	},
+/turf/open/floor/covenant,
+/area/space)
+"aZ" = (
+/obj/effect/decal/covenant_trim/endcap_right{
+	dir = 4
+	},
+/turf/open/floor/covenant,
+/area/space)
+"ba" = (
+/obj/effect/decal/covenant_trim/seamless{
+	dir = 4
+	},
+/turf/open/floor/covenant,
+/area/space)
 "bb" = (
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 1
@@ -788,6 +848,12 @@
 "cX" = (
 /turf/open/floor/covenant/endcap/south,
 /area/cloistered_light/hallways)
+"cY" = (
+/obj/effect/decal/covenant_trim/endcap_left{
+	dir = 4
+	},
+/turf/open/floor/covenant,
+/area/space)
 "cZ" = (
 /obj/effect/decal/covenant_trim/endcap_left,
 /turf/open/floor/covenant/paneling,
@@ -1220,9 +1286,74 @@
 "eG" = (
 /turf/open/floor/covenant/inverted,
 /area/cloistered_light/sangheili_quarters)
+"eH" = (
+/obj/effect/decal/covenant_trim/endcap_left{
+	dir = 1
+	},
+/turf/open/floor/covenant/smooth_plating,
+/area/cloistered_light/hallways)
+"eI" = (
+/obj/effect/decal/covenant_trim/seamless{
+	dir = 1
+	},
+/turf/open/floor/covenant/smooth_plating,
+/area/cloistered_light/hallways)
+"eJ" = (
+/obj/effect/decal/covenant_trim/endcap_right{
+	dir = 1
+	},
+/turf/open/floor/covenant/smooth_plating,
+/area/cloistered_light/hallways)
+"eK" = (
+/obj/structure/machinery/door/airlock/multi_tile/cov_door/prop,
+/obj/effect/decal/covenant_trim/endcap_right{
+	dir = 1
+	},
+/turf/open/floor/covenant/paneling/rotated,
+/area/cloistered_light/hallways)
+"eL" = (
+/obj/effect/decal/covenant_trim/endcap_right{
+	dir = 1
+	},
+/turf/open/floor/covenant/paneling/rotated,
+/area/cloistered_light/hallways)
+"eM" = (
+/obj/effect/decal/covenant_trim{
+	dir = 4
+	},
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/hallways)
+"eN" = (
+/obj/effect/decal/covenant_trim{
+	dir = 8
+	},
+/turf/open/floor/covenant/inverted,
+/area/cloistered_light/hallways)
+"eO" = (
+/obj/effect/decal/covenant_trim{
+	dir = 9
+	},
+/obj/effect/decal/covenant_trim/corner{
+	dir = 4
+	},
+/turf/open/floor/covenant/under_plating/greebles/alt,
+/area/cloistered_light/hallways)
 "eP" = (
 /turf/open/floor/covenant/smooth_plating,
 /area/cloistered_light)
+"eQ" = (
+/obj/structure/machinery/door/airlock/cov_door/prop,
+/turf/closed/wall/covenant,
+/area/cloistered_light/hallways)
+"eR" = (
+/obj/effect/decal/covenant_trim{
+	dir = 10
+	},
+/obj/effect/decal/covenant_trim/corner{
+	dir = 1
+	},
+/turf/open/floor/covenant/under_plating/greebles/alt,
+/area/cloistered_light/hallways)
 "fn" = (
 /turf/open/floor/covenant/smooth_plating/corners/northwest,
 /area/cloistered_light/unggoy_quarters)
@@ -1569,9 +1700,6 @@
 /turf/open/floor/covenant/paneling,
 /area/cloistered_light/canteen)
 "yR" = (
-/obj/effect/temp_visual/dropship_hover/spirit{
-	dir = 1
-	},
 /turf/open/floor/covenant/plating,
 /area/cloistered_light/hangar)
 "zb" = (
@@ -2493,22 +2621,22 @@ rX
 rX
 rX
 rX
-PR
-PR
-Om
-PR
-Om
-PR
-PR
-PR
-PR
-Om
-PR
-PR
-PR
-PR
-PR
-PR
+rX
+rX
+rX
+rX
+rX
+rX
+rX
+rX
+rX
+rX
+rX
+rX
+rX
+rX
+rX
+rX
 rX
 rX
 rX
@@ -2643,22 +2771,22 @@ rX
 rX
 rX
 rX
+rX
+rX
+rX
+rX
+PR
+Om
+PR
+Om
 PR
 PR
 PR
-iO
-iO
-vq
-AJ
-jK
-iO
-iO
-vq
-AJ
-jK
-iO
-iO
-iO
+Om
+PR
+PR
+PR
+PR
 PR
 PR
 rX
@@ -2795,23 +2923,23 @@ rX
 rX
 rX
 rX
+rX
+rX
+PR
+PR
 PR
 iO
-dT
-iO
+vq
+AJ
+jK
 iO
 vq
 AJ
 jK
 iO
 iO
-vq
-AJ
-jK
 iO
-iO
-iO
-iO
+PR
 PR
 rX
 rX
@@ -2946,25 +3074,25 @@ rX
 rX
 rX
 rX
+rX
+rX
+rX
 PR
-PR
-dX
-ah
-dP
+iO
+dT
+iO
+vq
+AJ
+jK
 iO
 vq
 AJ
 jK
 iO
 iO
-vq
-AJ
-jK
 iO
 iO
-iO
-iO
-Om
+PR
 rX
 rX
 rX
@@ -3098,25 +3226,25 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
-iO
-iO
-dU
-iO
+PR
+dX
+ah
+dP
+vq
+AJ
+jK
 iO
 vq
 AJ
 jK
 iO
 iO
-vq
-dm
-jK
 iO
 iO
-iO
-iO
-PR
+Om
 rX
 rX
 rX
@@ -3250,16 +3378,16 @@ rX
 rX
 rX
 rX
+rX
+rX
 Om
 iO
 iO
-iO
-iO
+dU
 iO
 hK
 PR
 sH
-IY
 IY
 hK
 PR
@@ -3402,8 +3530,9 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
-iO
 iO
 iO
 iO
@@ -3411,7 +3540,6 @@ iO
 iO
 PR
 Om
-cn
 cn
 Om
 PR
@@ -3429,7 +3557,7 @@ rX
 rX
 PR
 PR
-Om
+PR
 PR
 PR
 rX
@@ -3554,16 +3682,16 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
 PR
 aN
-IY
 IY
 sH
 PR
 PR
 xO
-cn
 cn
 xO
 Vx
@@ -3579,11 +3707,11 @@ Om
 PR
 rX
 PR
-Om
+PR
 af
 ah
 ac
-Om
+PR
 rX
 rX
 rX
@@ -3707,13 +3835,13 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
 Om
 cn
-dm
 Om
 PR
-Vx
 Vx
 Vx
 Vx
@@ -3730,7 +3858,7 @@ aL
 dh
 Om
 PR
-Om
+PR
 dh
 ao
 ai
@@ -3858,15 +3986,15 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
 PR
 hK
 se
-se
 fn
 Om
 ME
-Vx
 Vx
 Vx
 Vx
@@ -4010,15 +4138,15 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
-iO
 iO
 iO
 iO
 jw
 AJ
 AJ
-Vx
 Vx
 Vx
 Vx
@@ -4162,8 +4290,9 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
-iO
 iO
 iO
 iO
@@ -4172,13 +4301,12 @@ AJ
 AJ
 Vx
 Vx
-Vx
-Vx
-Vx
-Vx
-Vx
-Vx
-Vx
+PR
+aR
+aR
+aR
+aJ
+aC
 Om
 dh
 aP
@@ -4191,7 +4319,7 @@ av
 ap
 aj
 dh
-Om
+PR
 rX
 rX
 rX
@@ -4314,16 +4442,16 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
 PR
 aN
-IY
 IY
 sH
 Om
 ME
 Vx
-Vx
 Om
 PR
 PR
@@ -4338,11 +4466,11 @@ bU
 bU
 Om
 PR
-Om
+aa
 bU
 bU
 bU
-Om
+aa
 PR
 jX
 jX
@@ -4467,17 +4595,17 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
 Om
 cn
-cn
 Om
 PR
 Vx
 Vx
-Vx
 PR
-jX
+bL
 Ex
 Ex
 Ex
@@ -4489,13 +4617,13 @@ aw
 aq
 ak
 Ex
-di
+az
 Ex
 aw
 aq
 ak
 Ex
-pO
+Ex
 xM
 Ex
 Ex
@@ -4618,16 +4746,16 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
 PR
 hK
-se
 se
 fn
 Om
 ME
 Vx
-Vx
 PR
 Ex
 Ex
@@ -4641,13 +4769,13 @@ Ex
 Ex
 Ex
 Ex
-di
+az
 Ex
 Ex
 Ex
 Ex
 Ex
-pO
+Ex
 xM
 Ex
 Ex
@@ -4770,15 +4898,15 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
-iO
 iO
 iO
 iO
 jw
 AJ
 AJ
-Vx
 Vx
 Om
 Ex
@@ -4793,13 +4921,13 @@ Ex
 Ex
 Ex
 Ex
-di
+az
 Ex
 Ex
 Ex
 Ex
 Ex
-pO
+Ex
 xM
 Ex
 Ex
@@ -4922,8 +5050,9 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
-iO
 iO
 iO
 iO
@@ -4931,7 +5060,6 @@ jw
 dm
 AJ
 Vx
-Vx
 PR
 Ex
 Ex
@@ -4946,11 +5074,11 @@ ar
 al
 bL
 jX
-bL
+ed
 ax
 ar
 al
-bL
+ed
 jX
 jX
 Ex
@@ -5074,15 +5202,15 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
 PR
-iO
 iO
 iO
 hK
 Om
 ME
-Vx
 Vx
 PR
 Ex
@@ -5093,9 +5221,9 @@ bL
 jX
 rX
 PR
-bU
-bU
-bU
+aB
+aB
+aB
 PR
 rX
 PR
@@ -5193,9 +5321,9 @@ vK
 vK
 jX
 jX
-bI
-bI
-bI
+nS
+nS
+nS
 jX
 rX
 rX
@@ -5227,11 +5355,11 @@ rX
 rX
 rX
 rX
+rX
+rX
 PR
 PR
 Om
-PR
-PR
 PR
 PR
 PR
@@ -5396,17 +5524,17 @@ jX
 rX
 rX
 rX
-Om
+PR
 dh
 af
 aH
 Om
 rX
-Om
+PR
 ah
 ac
 dh
-Om
+PR
 rX
 rX
 rX
@@ -6105,9 +6233,9 @@ vK
 vK
 jX
 bL
-Ex
-Ex
-Ex
+pO
+pO
+pO
 bL
 jX
 rX
@@ -6251,7 +6379,7 @@ cw
 cs
 vK
 vK
-vK
+jv
 vK
 vK
 vK
@@ -6565,9 +6693,9 @@ Ex
 Ex
 Ex
 Ex
-Ex
-di
-Ex
+be
+GS
+bb
 Ex
 Ex
 Ex
@@ -6693,7 +6821,7 @@ rX
 rX
 rX
 rX
-jv
+vK
 eG
 eG
 eG
@@ -6717,9 +6845,9 @@ Ex
 bL
 Ex
 Ex
-Ex
-di
-Ex
+bf
+tx
+bc
 Ex
 Ex
 Ex
@@ -6869,9 +6997,9 @@ Ex
 Ex
 Ex
 Ex
-Ex
-di
-Ex
+bg
+tx
+bd
 Ex
 Ex
 Ex
@@ -7163,7 +7291,7 @@ cz
 ct
 vK
 vK
-vK
+jv
 vK
 vK
 vK
@@ -7321,9 +7449,9 @@ vK
 vK
 jX
 bL
-Ex
-Ex
-Ex
+pO
+pO
+pO
 bL
 jX
 rX
@@ -7916,10 +8044,10 @@ HV
 eE
 eC
 cT
-jv
+vK
 cN
 Dg
-jv
+vK
 JF
 JF
 JF
@@ -8067,12 +8195,12 @@ df
 de
 eF
 eC
-vK
+jv
 vK
 Dg
 Dg
 vK
-vK
+jv
 JF
 JF
 JF
@@ -8081,9 +8209,9 @@ vK
 vK
 cf
 jX
-pO
-pO
-pO
+Ex
+Ex
+Ex
 jX
 rX
 rX
@@ -8523,12 +8651,12 @@ rX
 rX
 rX
 rX
-jv
 vK
 vK
 vK
 vK
-jv
+vK
+vK
 cf
 cf
 ey
@@ -10534,11 +10662,11 @@ XN
 sU
 sU
 jX
-bL
+jX
 Ex
 Ex
 Ex
-bL
+jX
 jX
 rX
 rX
@@ -11294,11 +11422,11 @@ rX
 rX
 rX
 rX
-ed
+jX
 nS
 nS
 nS
-ed
+jX
 rX
 rX
 rX
@@ -11598,11 +11726,11 @@ jX
 jX
 rX
 jX
-bL
+jX
 Ex
 Ex
 Ex
-bL
+jX
 jX
 rX
 rX
@@ -12358,11 +12486,11 @@ tx
 bL
 rX
 rX
-ed
+jX
 nS
 nS
 nS
-ed
+jX
 rX
 rX
 rX
@@ -14648,11 +14776,11 @@ rX
 rX
 rX
 rX
-rX
-rX
-rX
-rX
-rX
+xW
+cY
+ba
+aZ
+xW
 rX
 rX
 rX
@@ -14800,11 +14928,11 @@ rX
 rX
 rX
 rX
-rX
-rX
-rX
-rX
-rX
+jX
+Aj
+Aj
+Lt
+jX
 rX
 rX
 rX
@@ -14953,9 +15081,9 @@ rX
 rX
 rX
 jX
-ax
-ar
-al
+aw
+aq
+ak
 jX
 rX
 rX
@@ -15105,9 +15233,9 @@ rX
 rX
 rX
 jX
-Aj
-Aj
-Lt
+Ex
+Ex
+Ex
 jX
 rX
 rX
@@ -15255,13 +15383,13 @@ ec
 jX
 rX
 rX
-rX
+bL
 jX
-aw
-aq
-ak
+tx
+tx
+tx
 jX
-rX
+bL
 rX
 rX
 rX
@@ -15406,15 +15534,15 @@ ec
 ec
 jX
 rX
-rX
-rX
+bL
 jX
-tx
-tx
-tx
+So
+IF
+IF
+IF
+FY
 jX
-rX
-rX
+bL
 rX
 rX
 rX
@@ -15557,17 +15685,17 @@ ec
 ec
 ec
 jX
-rX
-rX
-jX
-bL
-tx
-tx
-tx
 bL
 jX
-rX
-rX
+kJ
+kJ
+kJ
+kJ
+kJ
+kJ
+kJ
+jX
+bL
 rX
 rX
 rX
@@ -15706,24 +15834,24 @@ ec
 ec
 ec
 ec
-ec
-ec
-jX
-rX
-jX
+eM
+eM
+bL
 jX
 kJ
 kJ
+fs
+zh
+jX
+nO
+vp
 kJ
-kJ
-kJ
+Dh
 jX
 jX
-rX
-rX
-rX
-rX
-rX
+jX
+jX
+xW
 rX
 rX
 rX
@@ -15858,24 +15986,24 @@ ec
 ec
 ec
 ec
-ec
-ec
-bL
-jX
-bL
+Aj
+Aj
+eK
+eH
 kJ
-fs
-zh
-jX
-nO
-vp
 kJ
-bL
+ua
 jX
 jX
-bL
 jX
-rX
+rm
+kJ
+UK
+Aj
+Ex
+be
+Di
+aW
 rX
 rX
 rX
@@ -16010,24 +16138,24 @@ ec
 ec
 ec
 ec
-ec
-ec
-ec
 Aj
 Aj
+eL
+eI
 kJ
-ua
-jX
-jX
-jX
-rm
 kJ
+jX
+jX
+jX
+jX
+jX
+kJ
+UK
 Aj
-Aj
-be
-Di
-bb
-rX
+Ex
+bf
+tx
+aX
 rX
 rX
 rX
@@ -16162,24 +16290,24 @@ ec
 ec
 ec
 ec
-ec
-ec
-ec
 Aj
 Aj
+eL
+eJ
 kJ
-jX
-jX
-jX
-jX
-jX
 kJ
+WZ
+jX
+jX
+jX
+Jr
+kJ
+UK
 Aj
-Aj
-bf
+Ex
+bg
 tx
-bc
-rX
+aY
 rX
 rX
 rX
@@ -16314,24 +16442,24 @@ ec
 ec
 ec
 ec
-ec
-ec
-ec
-Aj
-Aj
+eN
+eN
+bL
+jX
 kJ
-WZ
-jX
-jX
-jX
-Jr
 kJ
-Aj
-Aj
-bg
-tx
-bd
-rX
+So
+hD
+jX
+jo
+kJ
+kJ
+So
+jX
+jX
+jX
+jX
+xW
 rX
 rX
 rX
@@ -16468,21 +16596,21 @@ ec
 ec
 ec
 ec
-bL
 jX
 bL
-kJ
-So
-hD
 jX
-jo
 kJ
 kJ
+kJ
+kJ
+kJ
+kJ
+kJ
+jX
 bL
-jX
-jX
-bL
-jX
+rX
+rX
+rX
 rX
 rX
 rX
@@ -16622,15 +16750,15 @@ ec
 ec
 jX
 rX
+bL
 jX
+fs
+hj
+hj
+hj
+vp
 jX
-kJ
-kJ
-kJ
-kJ
-kJ
-jX
-jX
+bL
 rX
 rX
 rX
@@ -16775,13 +16903,13 @@ ec
 jX
 rX
 rX
-jX
-bL
-tx
-tx
-tx
 bL
 jX
+tx
+tx
+tx
+jX
+bL
 rX
 rX
 rX
@@ -16928,11 +17056,11 @@ jX
 rX
 rX
 rX
-jX
+bL
 tx
 tx
 tx
-jX
+bL
 rX
 rX
 rX
@@ -17996,7 +18124,7 @@ cW
 Ko
 Ko
 Ko
-Ko
+cW
 dv
 dv
 Ko
@@ -18298,7 +18426,7 @@ dC
 Ua
 QK
 zE
-Ko
+cW
 tW
 tW
 Ko
@@ -19362,7 +19490,7 @@ dC
 Ua
 yK
 vN
-Ko
+cW
 dv
 dv
 Ko
@@ -19668,7 +19796,7 @@ cW
 Ko
 Ko
 Ko
-Ko
+cW
 tW
 tW
 Ko
@@ -21625,17 +21753,17 @@ aq
 ak
 Ex
 bL
-tx
-tx
-tx
+dL
+dI
+dE
 bL
 jX
 jX
 jX
 bL
-tx
-tx
-tx
+dL
+dI
+dE
 bL
 jX
 jX
@@ -21649,17 +21777,17 @@ bL
 jX
 jX
 jX
-tx
-tx
-tx
+dL
+dI
+dE
 jX
 jX
 jX
 jX
 jX
-tx
-tx
-tx
+dL
+dI
+dE
 jX
 rX
 rX
@@ -22233,17 +22361,17 @@ jX
 jX
 jX
 bL
-tx
-tx
-tx
+dM
+dJ
+dF
 bL
 jX
 jX
 jX
 bL
-tx
-tx
-tx
+eR
+Ex
+eO
 bL
 jX
 jX
@@ -22257,17 +22385,17 @@ bL
 jX
 jX
 jX
-tx
-tx
-tx
+dM
+dJ
+dF
 jX
 jX
 jX
 jX
 jX
-tx
-tx
-tx
+dM
+dJ
+dF
 jX
 rX
 rX
@@ -22394,7 +22522,7 @@ rX
 rX
 jX
 jX
-jX
+eQ
 jX
 jX
 rX
@@ -22545,9 +22673,9 @@ rX
 rX
 rX
 rX
+xW
 rX
-rX
-rX
+xW
 rX
 rX
 rX
@@ -22697,9 +22825,9 @@ rX
 rX
 rX
 rX
+xW
 rX
-rX
-rX
+xW
 rX
 rX
 rX
