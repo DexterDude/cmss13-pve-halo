@@ -70,8 +70,10 @@
 /datum/species/ruuhtian/handle_post_spawn(mob/living/carbon/human/ruuhtian)
 	GLOB.alive_human_list -= ruuhtian
 
-	ruuhtian.blood_type = "K*"
-	ruuhtian.h_style = "Bald"
+	ruuhtian.blood_type = "*K"
+	ruuhtian.body_type = "ruuht"
+	if(!(ruuhtian.skin_color in GLOB.skin_color_ruuht_list))
+		ruuhtian.skin_color = pick_weight(list("ruuht1" = 60, "ruuht2" = 20, "ruuht3" = 20))
 	#ifndef UNIT_TESTS // Since this is a hard ref, we shouldn't confuse create_and_destroy
 	GLOB.kigyar_mob_list += ruuhtian
 	#endif
