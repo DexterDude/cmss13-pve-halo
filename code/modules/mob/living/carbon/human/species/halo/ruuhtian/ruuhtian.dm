@@ -70,7 +70,7 @@
 /datum/species/ruuhtian/handle_post_spawn(mob/living/carbon/human/ruuhtian)
 	GLOB.alive_human_list -= ruuhtian
 
-	ruuhtian.blood_type = "K*"
+	ruuhtian.blood_type = "*K"
 	ruuhtian.body_type = "ruuht"
 	if(!(ruuhtian.skin_color in GLOB.skin_color_ruuht_list))
 		ruuhtian.skin_color = pick_weight(list("ruuht1" = 60, "ruuht2" = 20, "ruuht3" = 20))

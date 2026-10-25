@@ -86,7 +86,7 @@
 /datum/species/sangheili/handle_post_spawn(mob/living/carbon/human/sangheili)
 	GLOB.alive_human_list -= sangheili
 
-	sangheili.blood_type = "S*"
+	sangheili.blood_type = "*S"
 	sangheili.h_style = "Bald"
 	sangheili.body_type = "sang"
 	if(!(sangheili.skin_color in GLOB.body_type_sang_list))

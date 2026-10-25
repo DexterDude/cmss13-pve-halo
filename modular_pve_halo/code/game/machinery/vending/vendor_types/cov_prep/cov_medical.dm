@@ -38,8 +38,8 @@
 		list("Vial (Blood Regen)", 20, /obj/item/reagent_container/glass/beaker/vial/covenant_vial/blood_regen, VENDOR_ITEM_REGULAR),
 
 		list("BLOOD CASES", -1, null, null),
-		list("Blood Case (Sangheili)", 20, /obj/item/reagent_container/blood/covenant/sangheili, VENDOR_ITEM_REGULAR)
-		list("Blood Case (Ruuhtian)", 20, /obj/item/reagent_container/blood/covenant/ruuhtian, VENDOR_ITEM_REGULAR)
-		list("Blood Case (Unggoy)", 20, /obj/item/reagent_container/blood/covenant/unggoy, VENDOR_ITEM_REGULAR)
-		list("Saline Case", 20, /obj/item/reagent_container/blood/covenant/saline, VENDOR_ITEM_REGULAR)
+		list("Blood Case (Sangheili)", 20, /obj/item/reagent_container/blood/covenant/sangheili, VENDOR_ITEM_REGULAR),
+		list("Blood Case (Ruuhtian)", 20, /obj/item/reagent_container/blood/covenant/ruuhtian, VENDOR_ITEM_REGULAR),
+		list("Blood Case (Unggoy)", 20, /obj/item/reagent_container/blood/covenant/unggoy, VENDOR_ITEM_REGULAR),
+		list("Saline Case", 20, /obj/item/reagent_container/blood/covenant/saline, VENDOR_ITEM_REGULAR),
 	)

@@ -2889,7 +2889,6 @@
 #include "modular_pve_halo\code\modules\projectiles\guns\specialist\launcher\spnkr.dm"
 #include "modular_pve_halo\code\modules\projectiles\guns\specialist\sniper\unsc.dm"
 #include "modular_pve_halo\code\modules\reagents\chemistry_machinery\chem_dispenser.dm"
-#include "modular_pve_halo\code\modules\reagents\chemistry_reagents\covenant_blood.dm"
 #include "modular_pve_halo\code\modules\reagents\chemistry_reagents\covenant_food.dm"
 #include "modular_pve_halo\code\modules\reagents\chemistry_reagents\covenant_medical.dm"
 #include "modular_pve_halo\code\modules\shuttle\bumblebee.dm"
