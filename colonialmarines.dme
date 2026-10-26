@@ -2813,6 +2813,7 @@
 #include "modular_pve_halo\code\game\machinery\lights\cov_ship_lights.dm"
 #include "modular_pve_halo\code\game\machinery\vending\vendor_types\food.dm"
 #include "modular_pve_halo\code\game\machinery\vending\vendor_types\medical.dm"
+#include "modular_pve_halo\code\game\machinery\vending\vendor_types\cov_prep\cov_ammo.dm"
 #include "modular_pve_halo\code\game\machinery\vending\vendor_types\cov_prep\cov_medical.dm"
 #include "modular_pve_halo\code\game\machinery\vending\vendor_types\cov_prep\cov_vendor.dm"
 #include "modular_pve_halo\code\game\machinery\vending\vendor_types\cov_prep\kigyar.dm"

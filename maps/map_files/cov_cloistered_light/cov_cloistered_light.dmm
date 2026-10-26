@@ -289,6 +289,10 @@
 /obj/structure/machinery/light/covenant/invisible,
 /turf/open/floor/covenant,
 /area/cloistered_light/unggoy_quarters)
+"aW" = (
+/obj/structure/machinery/cm_vending/sorted/covenant/ammo,
+/turf/open/floor/covenant,
+/area/cloistered_light/armory)
 "bb" = (
 /obj/effect/decal/covenant_trim/endcap_left{
 	dir = 1
@@ -18100,7 +18104,7 @@ ne
 WM
 rX
 nG
-CC
+aW
 CC
 CC
 CC
@@ -18252,7 +18256,7 @@ ne
 WM
 WM
 nG
-CC
+aW
 ga
 CC
 CC
@@ -21140,7 +21144,7 @@ ne
 WM
 nG
 nG
-CC
+aW
 ga
 CC
 bA
@@ -21292,7 +21296,7 @@ ne
 WM
 nG
 nG
-CC
+aW
 CC
 CC
 bA
