@@ -11,13 +11,12 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_minor, list(
 		list("METHANE TANK (TAKE ONE)", 0, null, null, null),
 		list("Pointy Tank", 0, /obj/item/storage/backpack/covenant/unggoy/minor/pointy, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_MANDATORY),
 		list("Curlback Tank", 0, /obj/item/storage/backpack/covenant/unggoy/minor/curlback, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_RECOMMENDED),
-		list("Pronged Tank", 5, /obj/item/storage/backpack/covenant/unggoy/minor/curlback, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
+		list("Pronged Tank", 5, /obj/item/storage/backpack/covenant/unggoy/minor/doubleprong, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
 		list("Canister Tank", 5, /obj/item/storage/backpack/covenant/unggoy/minor/canister, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
 
 		list("METHANE MASK (TAKE ONE)", 0, null, null, null),
 		list("Standard Mask", 0, /obj/item/clothing/mask/gas/unggoy, MARINE_CAN_BUY_MASK, VENDOR_ITEM_MANDATORY),
 		list("Full-Face Mask", 5, /obj/item/clothing/mask/gas/unggoy/specops, MARINE_CAN_BUY_MASK, VENDOR_ITEM_REGULAR),
-		list("Assault Helmet", 25, /obj/item/clothing/head/helmet/marine/unggoy/minor, MARINE_CAN_BUY_MASK, VENDOR_ITEM_REGULAR),
 
 		list("ARMOR ATTACHMENTS", 0, null, null, null),
 		list("Shoulder Pads", 0, /obj/item/clothing/accessory/pads/unggoy/minor, null, VENDOR_ITEM_REGULAR),
@@ -44,12 +43,13 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_minor, list(
 
 		list("WEAPONS", 0, null, null, null),
 		list("Plasma Pistol", 0, /obj/item/weapon/gun/energy/plasma/plasma_pistol, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Needler", 15, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 15, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 30, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 ))
 
 /obj/structure/machinery/cm_vending/covenant/unggoy/warrior
@@ -78,13 +78,12 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_major, list(
 		list("METHANE TANK (TAKE ONE)", 0, null, null, null),
 		list("Pointy Tank", 0, /obj/item/storage/backpack/covenant/unggoy/major/pointy, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_MANDATORY),
 		list("Curlback Tank", 0, /obj/item/storage/backpack/covenant/unggoy/major/curlback, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_RECOMMENDED),
-		list("Pronged Tank", 5, /obj/item/storage/backpack/covenant/unggoy/major/curlback, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
+		list("Pronged Tank", 5, /obj/item/storage/backpack/covenant/unggoy/major/doubleprong, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
 		list("Canister Tank", 5, /obj/item/storage/backpack/covenant/unggoy/major/canister, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
 
 		list("METHANE MASK (TAKE ONE)", 0, null, null, null),
 		list("Standard Mask", 0, /obj/item/clothing/mask/gas/unggoy, MARINE_CAN_BUY_MASK, VENDOR_ITEM_MANDATORY),
 		list("Full-Face Mask", 0, /obj/item/clothing/mask/gas/unggoy/specops, MARINE_CAN_BUY_MASK, VENDOR_ITEM_REGULAR),
-		list("Assault Helmet", 20, /obj/item/clothing/head/helmet/marine/unggoy/major, MARINE_CAN_BUY_MASK, VENDOR_ITEM_REGULAR),
 
 		list("ARMOR ATTACHMENTS", 0, null, null, null),
 		list("Shoulder Pads", 0, /obj/item/clothing/accessory/pads/unggoy/major, null, VENDOR_ITEM_REGULAR),
@@ -111,12 +110,13 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_major, list(
 
 		list("WEAPONS", 0, null, null, null),
 		list("Plasma Pistol", 0, /obj/item/weapon/gun/energy/plasma/plasma_pistol, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Needler", 10, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 10, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 20, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 ))
 
 // ==== UNGGOY SPECIALIST ====
@@ -135,12 +135,12 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_specialist, list(
 		list("Liquid Sustainment Unit (FIELD RATION)", 0, /obj/item/reagent_container/food/snacks/covenant/ration/unggoy, MARINE_CAN_BUY_MRE, VENDOR_ITEM_MANDATORY),
 
 		list("SPECIALIST WEAPON (TAKE ONE)", 0, null, null, null),
-		list("Heavy Plasma Repeater", 0, /obj/item/weapon/gun/energy/plasma/plasma_repeater/heavy, MARINE_CAN_BUY_KIT, VENDOR_ITEM_MANDATORY),
+		list("Heavy Plasma Repeater", 0, /obj/item/weapon/gun/energy/plasma/heavy_repeater, MARINE_CAN_BUY_KIT, VENDOR_ITEM_MANDATORY),
 
 		list("METHANE TANK (TAKE ONE)", 0, null, null, null),
 		list("Pointy Tank", 0, /obj/item/storage/backpack/covenant/unggoy/heavy/pointy, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_MANDATORY),
 		list("Curlback Tank", 0, /obj/item/storage/backpack/covenant/unggoy/heavy/curlback, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_RECOMMENDED),
-		list("Pronged Tank", 5, /obj/item/storage/backpack/covenant/unggoy/heavy/curlback, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
+		list("Pronged Tank", 5, /obj/item/storage/backpack/covenant/unggoy/heavy/doubleprong, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
 		list("Canister Tank", 5, /obj/item/storage/backpack/covenant/unggoy/heavy/canister, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
 
 		list("METHANE MASK (TAKE ONE)", 0, null, null, null),
@@ -173,12 +173,13 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_specialist, list(
 
 		list("WEAPONS", 0, null, null, null),
 		list("Plasma Pistol", 0, /obj/item/weapon/gun/energy/plasma/plasma_pistol, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Needler", 10, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 10, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 20, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 ))
 
 // ==== UNGGOY EVOCATI ====
@@ -199,7 +200,7 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_ultra, list(
 		list("METHANE TANK (TAKE ONE)", 0, null, null, null),
 		list("Pointy Tank", 0, /obj/item/storage/backpack/covenant/unggoy/ultra/pointy, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_MANDATORY),
 		list("Curlback Tank", 0, /obj/item/storage/backpack/covenant/unggoy/ultra/curlback, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_RECOMMENDED),
-		list("Pronged Tank", 5, /obj/item/storage/backpack/covenant/unggoy/ultra/curlback, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
+		list("Pronged Tank", 5, /obj/item/storage/backpack/covenant/unggoy/ultra/doubleprong, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
 		list("Canister Tank", 5, /obj/item/storage/backpack/covenant/unggoy/ultra/canister, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
 
 		list("METHANE MASK (TAKE ONE)", 0, null, null, null),
@@ -232,12 +233,13 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_ultra, list(
 
 		list("WEAPONS", 0, null, null, null),
 		list("Plasma Pistol", 0, /obj/item/weapon/gun/energy/plasma/plasma_pistol, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Needler", 5, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 5, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 10, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 ))
 
 // ==========================
@@ -252,7 +254,7 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_specops, list(
 		list("METHANE TANK (TAKE ONE)", 0, null, null, null),
 		list("Pointy Tank", 0, /obj/item/storage/backpack/covenant/unggoy/specops/pointy, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_MANDATORY),
 		list("Curlback Tank", 0, /obj/item/storage/backpack/covenant/unggoy/specops/curlback, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_RECOMMENDED),
-		list("Pronged Tank", 5, /obj/item/storage/backpack/covenant/unggoy/specops/curlback, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
+		list("Pronged Tank", 5, /obj/item/storage/backpack/covenant/unggoy/specops/doubleprong, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
 		list("Canister Tank", 5, /obj/item/storage/backpack/covenant/unggoy/specops/canister, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
 
 		list("METHANE MASK (TAKE ONE)", 0, null, null, null),
@@ -281,7 +283,7 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_specops, list(
 		list("Leg Greaves", 10, /obj/item/clothing/shoes/unggoy/specops, MARINE_CAN_BUY_SHOES, VENDOR_ITEM_REGULAR),
 
 		list("WEAPONS", 0, null, null, null),
-		list("Needler", 0, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 0, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 0, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Repeater", 20, /obj/item/weapon/gun/energy/plasma/plasma_repeater, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Carbine", 20, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/carbine_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
@@ -289,6 +291,7 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_specops, list(
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 ))
 
 /obj/structure/machinery/cm_vending/covenant/unggoy/specops
@@ -310,7 +313,7 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_specops_ultra, list(
 		list("METHANE TANK (TAKE ONE)", 0, null, null, null),
 		list("Pointy Tank", 0, /obj/item/storage/backpack/covenant/unggoy/specops_ultra/pointy, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_MANDATORY),
 		list("Curlback Tank", 0, /obj/item/storage/backpack/covenant/unggoy/specops_ultra/curlback, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_RECOMMENDED),
-		list("Pronged Tank", 5, /obj/item/storage/backpack/covenant/unggoy/specops_ultra/curlback, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
+		list("Pronged Tank", 5, /obj/item/storage/backpack/covenant/unggoy/specops_ultra/doubleprong, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
 		list("Canister Tank", 5, /obj/item/storage/backpack/covenant/unggoy/specops_ultra/canister, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_REGULAR),
 
 		list("METHANE MASK (TAKE ONE)", 0, null, null, null),
@@ -339,15 +342,16 @@ GLOBAL_LIST_INIT(cm_vending_unggoy_specops_ultra, list(
 		list("Leg Greaves", 5, /obj/item/clothing/shoes/unggoy/specops_ultra, MARINE_CAN_BUY_SHOES, VENDOR_ITEM_REGULAR),
 
 		list("WEAPONS", 0, null, null, null),
-		list("Needler", 0, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 0, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 0, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Repeater", 10, /obj/item/weapon/gun/energy/plasma/plasma_repeater, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Carbine", 10, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/carbine_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Heavy Plasma Repeater", 25, /obj/item/weapon/gun/energy/plasma/plasma_repeater/heavy, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Heavy Plasma Repeater", 25, /obj/item/weapon/gun/energy/plasma/heavy_repeater, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 ))
 
 /obj/structure/machinery/cm_vending/covenant/unggoy/specops_ultra

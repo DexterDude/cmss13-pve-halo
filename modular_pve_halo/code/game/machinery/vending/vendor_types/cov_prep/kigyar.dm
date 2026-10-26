@@ -32,7 +32,6 @@ GLOBAL_LIST_INIT(cm_vending_kigyar_minor, list(
 		list("HELMET (BUY ONE)", 0, null, null, null),
 		list("Helmet", 10, /obj/item/clothing/head/helmet/marine/ruuhtian, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_REGULAR),
 		list("Helmet (Superior)", 15, /obj/item/clothing/head/helmet/marine/ruuhtian/better, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_REGULAR),
-		list("Assault Helmet", 25, /obj/item/clothing/head/helmet/marine/ruuhtian/assault/minor, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_REGULAR),
 		list("Eye-Piece Headset", 10, /obj/item/clothing/head/helmet/marine/ruuhtian/headset, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_REGULAR),
 
 		list("BELT (TAKE ONE)", 0, null, null, null),
@@ -52,12 +51,14 @@ GLOBAL_LIST_INIT(cm_vending_kigyar_minor, list(
 
 		list("WEAPONS", 0, null, null, null),
 		list("Plasma Pistol", 0, /obj/item/weapon/gun/energy/plasma/plasma_pistol, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Needler", 15, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 15, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 30, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("(Kig-Yar) Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger/kigyar, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
+		list("Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 
 ))
 
@@ -92,7 +93,6 @@ GLOBAL_LIST_INIT(cm_vending_kigyar_major, list(
 		list("HELMET (BUY ONE)", 0, null, null, null),
 		list("Helmet", 10, /obj/item/clothing/head/helmet/marine/ruuhtian, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_REGULAR),
 		list("Helmet (Superior)", 15, /obj/item/clothing/head/helmet/marine/ruuhtian/better, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_REGULAR),
-		list("Assault Helmet", 25, /obj/item/clothing/head/helmet/marine/ruuhtian/assault/major, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_REGULAR),
 		list("Eye-Piece Headset", 10, /obj/item/clothing/head/helmet/marine/ruuhtian/headset, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_REGULAR),
 
 		list("BELT (TAKE ONE)", 0, null, null, null),
@@ -112,12 +112,14 @@ GLOBAL_LIST_INIT(cm_vending_kigyar_major, list(
 
 		list("WEAPONS", 0, null, null, null),
 		list("Plasma Pistol", 0, /obj/item/weapon/gun/energy/plasma/plasma_pistol, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Needler", 10, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 10, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 20, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("(Kig-Yar) Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger/kigyar, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
+		list("Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 
 ))
 
@@ -141,7 +143,7 @@ GLOBAL_LIST_INIT(cm_vending_kigyar_specialist, list(
 
 		list("SPECIALIST WEAPON (TAKE ONE)", 0, null, null, null),
 		list("Needle Rifle", 0, list(/obj/item/weapon/gun/rifle/needle_rifle, /obj/effect/essentials_set/needle_rifle_ammo), MARINE_CAN_BUY_KIT, VENDOR_ITEM_MANDATORY),
-		list("Carbine", 0, list(/obj/item/weapon/gun/rifle/covenant_carbine, /obj/effect/essentials_set/carbine_ammo), MARINE_CAN_BUY_KIT, VENDOR_ITEM_MANDATORY),
+		list("Carbine", 0, /obj/item/weapon/gun/rifle/covenant_carbine/unloaded, MARINE_CAN_BUY_KIT, VENDOR_ITEM_MANDATORY),
 
 		list("ARMOR EQUIPMENT (TAKE ALL)", 0, null, null, null),
 		list("Combat Harness", 0, /obj/item/clothing/suit/marine/ruuhtian/minor, MARINE_CAN_BUY_ARMOR, VENDOR_ITEM_MANDATORY),
@@ -176,12 +178,14 @@ GLOBAL_LIST_INIT(cm_vending_kigyar_specialist, list(
 
 		list("WEAPONS", 0, null, null, null),
 		list("Plasma Pistol", 0, /obj/item/weapon/gun/energy/plasma/plasma_pistol, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Needler", 10, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 10, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 20, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("(Kig-Yar) Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger/kigyar, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
+		list("Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 
 ))
 
@@ -236,12 +240,14 @@ GLOBAL_LIST_INIT(cm_vending_kigyar_evocati, list(
 
 		list("WEAPONS", 0, null, null, null),
 		list("Plasma Pistol", 0, /obj/item/weapon/gun/energy/plasma/plasma_pistol, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Needler", 5, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 5, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 10, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("(Kig-Yar) Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger/kigyar, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
+		list("Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 
 ))
 
@@ -297,14 +303,16 @@ GLOBAL_LIST_INIT(cm_vending_kigyar_specops, list(
 		list("Medical Vial Shellcases (Full)", 0, /obj/item/storage/pouch/medkit/covenant/vials/full, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_REGULAR),
 
 		list("WEAPONS", 0, null, null, null),
-		list("Needler", 0, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 0, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 0, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Repeater", 20, /obj/item/weapon/gun/energy/plasma/plasma_repeater, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Carbine", 20, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/carbine_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Carbine", 20, /obj/item/weapon/gun/rifle/covenant_carbine/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("(Kig-Yar) Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger/kigyar, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
+		list("Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 
 ))
 
@@ -356,14 +364,16 @@ GLOBAL_LIST_INIT(cm_vending_kigyar_specops_ultra, list(
 		list("Medical Vial Shellcases (Full)", 0, /obj/item/storage/pouch/medkit/covenant/vials/full, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_REGULAR),
 
 		list("WEAPONS", 0, null, null, null),
-		list("Needler", 0, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 0, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 0, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Repeater", 10, /obj/item/weapon/gun/energy/plasma/plasma_repeater, MARINE_CAN_BUY_KIT, VENDOR_ITEM_REGULAR),
-		list("Carbine", 10, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/carbine_ammo), MARINE_CAN_BUY_KIT, VENDOR_ITEM_REGULAR),
+		list("Carbine", 10, /obj/item/weapon/gun/rifle/covenant_carbine/unloaded, MARINE_CAN_BUY_KIT, VENDOR_ITEM_REGULAR),
 		list("Needle Rifle", 25, list(/obj/item/weapon/gun/rifle/needle_rifle, /obj/effect/essentials_set/needle_rifle_ammo), MARINE_CAN_BUY_KIT, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("(Kig-Yar) Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger/kigyar, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
+		list("Pain-glass Blade", 0, /obj/item/weapon/covenant/blamite_dagger, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 
 ))

@@ -49,14 +49,15 @@ GLOBAL_LIST_INIT(cm_vending_sangheili_minor, list(
 		list("Medical Vial Shellcases (Full)", 0, /obj/item/storage/pouch/medkit/covenant/vials/full, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_REGULAR),
 
 		list("WEAPONS", 0, null, null, null),
-		list("Needler", 0, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 0, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 0, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Repeater", 10, /obj/item/weapon/gun/energy/plasma/plasma_repeater, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Carbine", 10, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/carbine_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Carbine", 10, /obj/item/weapon/gun/rifle/covenant_carbine/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("Curveblade", 0, /obj/item/weapon/covenant/curveblade, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 ))
 
 // ==== SANGHEILI LANCE LEADER (MAJOR) ====
@@ -107,14 +108,15 @@ GLOBAL_LIST_INIT(cm_vending_sangheili_major, list(
 		list("Medical Vial Shellcases (Full)", 0, /obj/item/storage/pouch/medkit/covenant/vials/full, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_REGULAR),
 
 		list("WEAPONS", 0, null, null, null),
-		list("Needler", 0, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 0, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 0, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Repeater", 10, /obj/item/weapon/gun/energy/plasma/plasma_repeater, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Carbine", 10, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/carbine_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Carbine", 10, /obj/item/weapon/gun/rifle/covenant_carbine/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("Curveblade", 0, /obj/item/weapon/covenant/curveblade, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 ))
 
 // ==========================
@@ -168,14 +170,15 @@ GLOBAL_LIST_INIT(cm_vending_sangheili_specops, list(
 		list("Medical Vial Shellcases (Full)", 0, /obj/item/storage/pouch/medkit/covenant/vials/full, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_REGULAR),
 
 		list("WEAPONS", 0, null, null, null),
-		list("Needler", 0, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 0, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 0, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Repeater", 0, /obj/item/weapon/gun/energy/plasma/plasma_repeater, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Carbine", 0, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/carbine_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Carbine", 0, /obj/item/weapon/gun/rifle/covenant_carbine/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("Curveblade", 0, /obj/item/weapon/covenant/curveblade, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 ))
 
 // ==== SANGHEILI LANCE LEADER (MAJOR) ====
@@ -225,12 +228,13 @@ GLOBAL_LIST_INIT(cm_vending_sangheili_specops_ultra, list(
 		list("Medical Vial Shellcases (Full)", 0, /obj/item/storage/pouch/medkit/covenant/vials/full, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_REGULAR),
 
 		list("WEAPONS", 0, null, null, null),
-		list("Needler", 0, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/needle_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Needler", 0, /obj/item/weapon/gun/smg/covenant_needler/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Rifle", 0, /obj/item/weapon/gun/energy/plasma/plasma_rifle, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 		list("Plasma Repeater", 0, /obj/item/weapon/gun/energy/plasma/plasma_repeater, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
-		list("Carbine", 0, list(/obj/item/weapon/gun/smg/covenant_needler, /obj/effect/essentials_set/carbine_ammo), MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
+		list("Carbine", 0, /obj/item/weapon/gun/rifle/covenant_carbine/unloaded, MARINE_CAN_BUY_SECONDARY, VENDOR_ITEM_REGULAR),
 
 		list("UTILITIES", 0, null, null, null),
 		list("Plasma Grenade", 5, /obj/item/explosive/grenade/high_explosive/plasma, null, VENDOR_ITEM_REGULAR),
 		list("Prybar", 0, /obj/item/tool/crowbar/tactical, null, VENDOR_ITEM_REGULAR),
+		list("Curveblade", 0, /obj/item/weapon/covenant/curveblade, MARINE_CAN_BUY_COMBAT_SHOES, VENDOR_ITEM_REGULAR),
 ))
