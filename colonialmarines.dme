@@ -2805,6 +2805,7 @@
 #include "interface\skin.dmf"
 #include "maps\_basemap.dm"
 #include "modular_pve_halo\code\__DEFINES_HALO\cov_cloaking_defines.dm"
+#include "modular_pve_halo\code\datums\factions\covenant.dm"
 #include "modular_pve_halo\code\game\area\cloistered_light.dm"
 #include "modular_pve_halo\code\game\area\COP_Brighton.dm"
 #include "modular_pve_halo\code\game\area\covenant.dm"
