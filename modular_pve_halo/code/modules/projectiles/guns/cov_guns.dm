@@ -396,6 +396,9 @@
 	manual_vent_sound = 'sound/weapons/halo/repeater_overheat.ogg'
 	close_vent_sound = 'sound/weapons/halo/repeater_overheat_finish.ogg'
 
+/obj/item/weapon/gun/energy/plasma/heavy_repeater/set_gun_attachment_offsets()
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 16,"rail_x" = 22, "rail_y" = 20, "under_x" = 32, "under_y" = 16, "stock_x" = 0, "stock_y" = 0, "special_x" = 0, "special_y" = 16)
+
 /obj/item/weapon/gun/energy/plasma/heavy_repeater/handle_starting_attachment()
 	..()
 	var/obj/item/attachable/repeater_stock/heavy/integrated = new(src)
