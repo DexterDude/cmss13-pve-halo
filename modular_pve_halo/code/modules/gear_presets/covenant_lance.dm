@@ -7,8 +7,10 @@
 /datum/equipment_preset/covenant/lance/load_race(mob/living/carbon/human/new_human, client/mob_client)
 	if(new_human.client && new_human.client.prefs.species == SPECIES_RUUHTIAN)
 		new_human.set_species(SPECIES_RUUHTIAN)
+		new_human.add_language(LANGUAGE_RUUHTIAN)
 	else
 		new_human.set_species(SPECIES_UNGGOY)
+		new_human.add_language(LANGUAGE_UNGGOY)
 
 /datum/equipment_preset/covenant/lance/lance_standard
 	name = "Lance Warrior"
