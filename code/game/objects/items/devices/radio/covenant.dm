@@ -4,4 +4,4 @@
 	icon = 'icons/halo/obj/items/clothing/covenant/radio.dmi'
 	icon_state = "headset"
 	frequency = COV_SQ1_FREQ
-	hud_type = list(MOB_HUD_FACTION_COV)
+	hud_type = list(MOB_HUD_FACTION_COV, MOB_HUD_FACTION_UNGGOY, MOB_HUD_FACTION_KIGYAR, MOB_HUD_FACTION_SANGHEILI, MOB_HUD_FACTION_SPECOPS_UNGGOY, MOB_HUD_FACTION_SPECOPS_KIGYAR, MOB_HUD_FACTION_SPECOPS_SANGHEILI)
