@@ -55,8 +55,8 @@
 	maptext_label = "Kl"
 
 /obj/item/reagent_container/glass/beaker/vial/covenant_vial/bica_kelo_mix
-	name = "(bicaridine) subcutaneous injector vial"
-	desc = "A green-tinted vial, storing chemical agents that heal brute and burn damage."
+	name = "(bicaridine-kelotane) subcutaneous injector vial"
+	desc = "A green-tinted vial, storing chemical agents that heal both brute and burn damage."
 	icon_state = "vial_green"
 	maptext_label = "BK"
 
