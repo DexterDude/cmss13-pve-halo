@@ -266,5 +266,5 @@
 	if(current_human.species.name in list(SPECIES_LIST_UNGGOY))
 		holder.pixel_y = -16
 	if(current_human.species.name in list(SPECIES_LIST_RUUHTIAN))
-		holder.pixel_x = -4
-		holder.pixel_y = 3
+		holder.pixel_x = 4
+		holder.pixel_y = -3
